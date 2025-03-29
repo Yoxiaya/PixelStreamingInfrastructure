@@ -1,0 +1,612 @@
+{"timestamp":"2025-03-24 09:01:13.540","level":"info","event":"message","message":"@epicgames-ps/wilbur v2.1.3 starting..."}
+{"timestamp":"2025-03-24 09:01:13.541","level":"info","event":"message","message":"Config:"}
+{"timestamp":"2025-03-24 09:01:13.542","level":"info","event":"message","message":"\"log_folder\": \"logs\""}
+{"timestamp":"2025-03-24 09:01:13.544","level":"info","event":"message","message":"\"log_level_console\": \"info\""}
+{"timestamp":"2025-03-24 09:01:13.544","level":"info","event":"message","message":"\"log_level_file\": \"info\""}
+{"timestamp":"2025-03-24 09:01:13.544","level":"info","event":"message","message":"\"streamer_port\": \"8888\""}
+{"timestamp":"2025-03-24 09:01:13.545","level":"info","event":"message","message":"\"player_port\": \"80\""}
+{"timestamp":"2025-03-24 09:01:13.550","level":"info","event":"message","message":"\"sfu_port\": \"8889\""}
+{"timestamp":"2025-03-24 09:01:13.550","level":"info","event":"message","message":"\"max_players\": \"0\""}
+{"timestamp":"2025-03-24 09:01:13.550","level":"info","event":"message","message":"\"serve\": \"true\""}
+{"timestamp":"2025-03-24 09:01:13.550","level":"info","event":"message","message":"\"http_root\": \"D:\\DEMO\\PixelStreamingInfrastructure\\SignallingWebServer\\www\""}
+{"timestamp":"2025-03-24 09:01:13.550","level":"info","event":"message","message":"\"homepage\": \"player.html\""}
+{"timestamp":"2025-03-24 09:01:13.551","level":"info","event":"message","message":"\"https\": \"false\""}
+{"timestamp":"2025-03-24 09:01:13.551","level":"info","event":"message","message":"\"https_port\": \"443\""}
+{"timestamp":"2025-03-24 09:01:13.551","level":"info","event":"message","message":"\"ssl_key_path\": \"certificates/client-key.pem\""}
+{"timestamp":"2025-03-24 09:01:13.551","level":"info","event":"message","message":"\"ssl_cert_path\": \"certificates/client-cert.pem\""}
+{"timestamp":"2025-03-24 09:01:13.551","level":"info","event":"message","message":"\"https_redirect\": \"true\""}
+{"timestamp":"2025-03-24 09:01:13.551","level":"info","event":"message","message":"\"rest_api\": \"false\""}
+{"timestamp":"2025-03-24 09:01:13.552","level":"info","event":"message","message":"\"peer_options\": \"\""}
+{"timestamp":"2025-03-24 09:01:13.552","level":"info","event":"message","message":"\"log_config\": \"true\""}
+{"timestamp":"2025-03-24 09:01:13.552","level":"info","event":"message","message":"\"stdin\": \"false\""}
+{"timestamp":"2025-03-24 09:01:13.552","level":"info","event":"message","message":"\"save\": \"false\""}
+{"timestamp":"2025-03-24 09:01:13.552","level":"info","event":"message","message":"\"console_messages\": \"verbose\""}
+{"timestamp":"2025-03-24 09:01:13.556","level":"info","event":"message","message":"Listening for streamer connections on port 8888"}
+{"timestamp":"2025-03-24 09:01:13.557","level":"info","event":"message","message":"Listening for SFU connections on port 8889"}
+{"timestamp":"2025-03-24 09:01:13.558","level":"info","event":"message","message":"Http server listening on port 80"}
+{"timestamp":"2025-03-24 09:01:30.153","level":"info","event":"message","message":"New player connection: ::ffff:127.0.0.1 (/)"}
+{"timestamp":"2025-03-24 09:01:30.154","level":"info","event":"message","message":"Registered new player: Player0"}
+{"timestamp":"2025-03-24 09:01:30.155","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"config","peerConnectionOptions":{},"protocolVersion":"1.3.0"}}
+{"timestamp":"2025-03-24 09:01:30.157","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-24 09:01:30.157","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-24 09:01:33.265","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-24 09:01:33.266","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-24 09:01:37.270","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-24 09:01:37.270","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-24 09:01:41.267","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-24 09:01:41.268","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-24 13:04:00.340","level":"info","event":"message","message":"@epicgames-ps/wilbur v2.1.3 starting..."}
+{"timestamp":"2025-03-24 13:04:00.341","level":"info","event":"message","message":"Config:"}
+{"timestamp":"2025-03-24 13:04:00.341","level":"info","event":"message","message":"\"log_folder\": \"logs\""}
+{"timestamp":"2025-03-24 13:04:00.342","level":"info","event":"message","message":"\"log_level_console\": \"info\""}
+{"timestamp":"2025-03-24 13:04:00.342","level":"info","event":"message","message":"\"log_level_file\": \"info\""}
+{"timestamp":"2025-03-24 13:04:00.342","level":"info","event":"message","message":"\"streamer_port\": \"8888\""}
+{"timestamp":"2025-03-24 13:04:00.342","level":"info","event":"message","message":"\"player_port\": \"80\""}
+{"timestamp":"2025-03-24 13:04:00.342","level":"info","event":"message","message":"\"sfu_port\": \"8889\""}
+{"timestamp":"2025-03-24 13:04:00.342","level":"info","event":"message","message":"\"max_players\": \"0\""}
+{"timestamp":"2025-03-24 13:04:00.343","level":"info","event":"message","message":"\"serve\": \"true\""}
+{"timestamp":"2025-03-24 13:04:00.343","level":"info","event":"message","message":"\"http_root\": \"D:\\PixelStreamingInfrastructure\\SignallingWebServer\\www\""}
+{"timestamp":"2025-03-24 13:04:00.343","level":"info","event":"message","message":"\"homepage\": \"player.html\""}
+{"timestamp":"2025-03-24 13:04:00.343","level":"info","event":"message","message":"\"https\": \"false\""}
+{"timestamp":"2025-03-24 13:04:00.344","level":"info","event":"message","message":"\"https_port\": \"443\""}
+{"timestamp":"2025-03-24 13:04:00.344","level":"info","event":"message","message":"\"ssl_key_path\": \"certificates/client-key.pem\""}
+{"timestamp":"2025-03-24 13:04:00.344","level":"info","event":"message","message":"\"ssl_cert_path\": \"certificates/client-cert.pem\""}
+{"timestamp":"2025-03-24 13:04:00.344","level":"info","event":"message","message":"\"https_redirect\": \"true\""}
+{"timestamp":"2025-03-24 13:04:00.344","level":"info","event":"message","message":"\"rest_api\": \"false\""}
+{"timestamp":"2025-03-24 13:04:00.344","level":"info","event":"message","message":"\"peer_options\": \"\""}
+{"timestamp":"2025-03-24 13:04:00.345","level":"info","event":"message","message":"\"log_config\": \"true\""}
+{"timestamp":"2025-03-24 13:04:00.345","level":"info","event":"message","message":"\"stdin\": \"false\""}
+{"timestamp":"2025-03-24 13:04:00.345","level":"info","event":"message","message":"\"save\": \"false\""}
+{"timestamp":"2025-03-24 13:04:00.349","level":"info","event":"message","message":"Listening for streamer connections on port 8888"}
+{"timestamp":"2025-03-24 13:04:00.349","level":"info","event":"message","message":"Listening for SFU connections on port 8889"}
+{"timestamp":"2025-03-24 13:04:00.351","level":"info","event":"message","message":"Http server listening on port 80"}
+{"timestamp":"2025-03-24 13:04:05.989","level":"error","event":"message","message":"Unable to locate file player.html"}
+{"timestamp":"2025-03-24 13:04:06.107","level":"error","event":"message","message":"Unable to locate file player.html"}
+{"timestamp":"2025-03-24 13:04:08.416","level":"error","event":"message","message":"Unable to locate file player.html"}
+{"timestamp":"2025-03-24 13:04:55.401","level":"info","event":"message","message":"@epicgames-ps/wilbur v2.1.3 starting..."}
+{"timestamp":"2025-03-24 13:04:55.401","level":"info","event":"message","message":"Config:"}
+{"timestamp":"2025-03-24 13:04:55.402","level":"info","event":"message","message":"\"log_folder\": \"logs\""}
+{"timestamp":"2025-03-24 13:04:55.402","level":"info","event":"message","message":"\"log_level_console\": \"info\""}
+{"timestamp":"2025-03-24 13:04:55.402","level":"info","event":"message","message":"\"log_level_file\": \"info\""}
+{"timestamp":"2025-03-24 13:04:55.402","level":"info","event":"message","message":"\"streamer_port\": \"8888\""}
+{"timestamp":"2025-03-24 13:04:55.403","level":"info","event":"message","message":"\"player_port\": \"80\""}
+{"timestamp":"2025-03-24 13:04:55.403","level":"info","event":"message","message":"\"sfu_port\": \"8889\""}
+{"timestamp":"2025-03-24 13:04:55.403","level":"info","event":"message","message":"\"max_players\": \"0\""}
+{"timestamp":"2025-03-24 13:04:55.403","level":"info","event":"message","message":"\"serve\": \"true\""}
+{"timestamp":"2025-03-24 13:04:55.404","level":"info","event":"message","message":"\"http_root\": \"D:\\PixelStreamingInfrastructure\\SignallingWebServer\\www\""}
+{"timestamp":"2025-03-24 13:04:55.404","level":"info","event":"message","message":"\"homepage\": \"index.html\""}
+{"timestamp":"2025-03-24 13:04:55.404","level":"info","event":"message","message":"\"https\": \"false\""}
+{"timestamp":"2025-03-24 13:04:55.404","level":"info","event":"message","message":"\"https_port\": \"443\""}
+{"timestamp":"2025-03-24 13:04:55.404","level":"info","event":"message","message":"\"ssl_key_path\": \"certificates/client-key.pem\""}
+{"timestamp":"2025-03-24 13:04:55.405","level":"info","event":"message","message":"\"ssl_cert_path\": \"certificates/client-cert.pem\""}
+{"timestamp":"2025-03-24 13:04:55.405","level":"info","event":"message","message":"\"https_redirect\": \"true\""}
+{"timestamp":"2025-03-24 13:04:55.405","level":"info","event":"message","message":"\"rest_api\": \"false\""}
+{"timestamp":"2025-03-24 13:04:55.405","level":"info","event":"message","message":"\"peer_options\": \"\""}
+{"timestamp":"2025-03-24 13:04:55.406","level":"info","event":"message","message":"\"log_config\": \"true\""}
+{"timestamp":"2025-03-24 13:04:55.406","level":"info","event":"message","message":"\"stdin\": \"false\""}
+{"timestamp":"2025-03-24 13:04:55.406","level":"info","event":"message","message":"\"save\": \"false\""}
+{"timestamp":"2025-03-24 13:04:55.410","level":"info","event":"message","message":"Listening for streamer connections on port 8888"}
+{"timestamp":"2025-03-24 13:04:55.411","level":"info","event":"message","message":"Listening for SFU connections on port 8889"}
+{"timestamp":"2025-03-24 13:04:55.412","level":"info","event":"message","message":"Http server listening on port 80"}
+{"timestamp":"2025-03-24 13:04:58.486","level":"error","event":"message","message":"Unable to locate file index.html"}
+{"timestamp":"2025-03-24 13:04:59.191","level":"error","event":"message","message":"Unable to locate file index.html"}
+{"timestamp":"2025-03-24 13:05:48.439","level":"info","event":"message","message":"@epicgames-ps/wilbur v2.1.3 starting..."}
+{"timestamp":"2025-03-24 13:05:48.439","level":"info","event":"message","message":"Config:"}
+{"timestamp":"2025-03-24 13:05:48.440","level":"info","event":"message","message":"\"log_folder\": \"logs\""}
+{"timestamp":"2025-03-24 13:05:48.440","level":"info","event":"message","message":"\"log_level_console\": \"info\""}
+{"timestamp":"2025-03-24 13:05:48.440","level":"info","event":"message","message":"\"log_level_file\": \"info\""}
+{"timestamp":"2025-03-24 13:05:48.440","level":"info","event":"message","message":"\"streamer_port\": \"8888\""}
+{"timestamp":"2025-03-24 13:05:48.441","level":"info","event":"message","message":"\"player_port\": \"80\""}
+{"timestamp":"2025-03-24 13:05:48.441","level":"info","event":"message","message":"\"sfu_port\": \"8889\""}
+{"timestamp":"2025-03-24 13:05:48.441","level":"info","event":"message","message":"\"max_players\": \"0\""}
+{"timestamp":"2025-03-24 13:05:48.441","level":"info","event":"message","message":"\"serve\": \"true\""}
+{"timestamp":"2025-03-24 13:05:48.442","level":"info","event":"message","message":"\"http_root\": \"D:\\PixelStreamingInfrastructure\\SignallingWebServer\\www\""}
+{"timestamp":"2025-03-24 13:05:48.442","level":"info","event":"message","message":"\"homepage\": \"index.html\""}
+{"timestamp":"2025-03-24 13:05:48.442","level":"info","event":"message","message":"\"https\": \"false\""}
+{"timestamp":"2025-03-24 13:05:48.442","level":"info","event":"message","message":"\"https_port\": \"443\""}
+{"timestamp":"2025-03-24 13:05:48.443","level":"info","event":"message","message":"\"ssl_key_path\": \"certificates/client-key.pem\""}
+{"timestamp":"2025-03-24 13:05:48.443","level":"info","event":"message","message":"\"ssl_cert_path\": \"certificates/client-cert.pem\""}
+{"timestamp":"2025-03-24 13:05:48.443","level":"info","event":"message","message":"\"https_redirect\": \"true\""}
+{"timestamp":"2025-03-24 13:05:48.444","level":"info","event":"message","message":"\"rest_api\": \"false\""}
+{"timestamp":"2025-03-24 13:05:48.444","level":"info","event":"message","message":"\"peer_options\": \"\""}
+{"timestamp":"2025-03-24 13:05:48.444","level":"info","event":"message","message":"\"log_config\": \"true\""}
+{"timestamp":"2025-03-24 13:05:48.445","level":"info","event":"message","message":"\"stdin\": \"false\""}
+{"timestamp":"2025-03-24 13:05:48.445","level":"info","event":"message","message":"\"save\": \"false\""}
+{"timestamp":"2025-03-24 13:05:48.449","level":"info","event":"message","message":"Listening for streamer connections on port 8888"}
+{"timestamp":"2025-03-24 13:05:48.450","level":"info","event":"message","message":"Listening for SFU connections on port 8889"}
+{"timestamp":"2025-03-24 13:05:48.451","level":"info","event":"message","message":"Http server listening on port 80"}
+{"timestamp":"2025-03-24 13:05:51.684","level":"error","event":"message","message":"Unable to locate file index.html"}
+{"timestamp":"2025-03-24 13:05:52.234","level":"error","event":"message","message":"Unable to locate file index.html"}
+{"timestamp":"2025-03-24 13:05:52.585","level":"error","event":"message","message":"Unable to locate file index.html"}
+{"timestamp":"2025-03-24 13:07:02.815","level":"info","event":"message","message":"@epicgames-ps/wilbur v2.1.3 starting..."}
+{"timestamp":"2025-03-24 13:07:02.815","level":"info","event":"message","message":"Config:"}
+{"timestamp":"2025-03-24 13:07:02.816","level":"info","event":"message","message":"\"log_folder\": \"logs\""}
+{"timestamp":"2025-03-24 13:07:02.816","level":"info","event":"message","message":"\"log_level_console\": \"info\""}
+{"timestamp":"2025-03-24 13:07:02.816","level":"info","event":"message","message":"\"log_level_file\": \"info\""}
+{"timestamp":"2025-03-24 13:07:02.816","level":"info","event":"message","message":"\"streamer_port\": \"8888\""}
+{"timestamp":"2025-03-24 13:07:02.817","level":"info","event":"message","message":"\"player_port\": \"80\""}
+{"timestamp":"2025-03-24 13:07:02.817","level":"info","event":"message","message":"\"sfu_port\": \"8889\""}
+{"timestamp":"2025-03-24 13:07:02.817","level":"info","event":"message","message":"\"max_players\": \"0\""}
+{"timestamp":"2025-03-24 13:07:02.817","level":"info","event":"message","message":"\"serve\": \"true\""}
+{"timestamp":"2025-03-24 13:07:02.817","level":"info","event":"message","message":"\"http_root\": \"www\""}
+{"timestamp":"2025-03-24 13:07:02.818","level":"info","event":"message","message":"\"homepage\": \"index.html\""}
+{"timestamp":"2025-03-24 13:07:02.818","level":"info","event":"message","message":"\"https\": \"false\""}
+{"timestamp":"2025-03-24 13:07:02.819","level":"info","event":"message","message":"\"https_port\": \"443\""}
+{"timestamp":"2025-03-24 13:07:02.819","level":"info","event":"message","message":"\"ssl_key_path\": \"certificates/client-key.pem\""}
+{"timestamp":"2025-03-24 13:07:02.819","level":"info","event":"message","message":"\"ssl_cert_path\": \"certificates/client-cert.pem\""}
+{"timestamp":"2025-03-24 13:07:02.819","level":"info","event":"message","message":"\"https_redirect\": \"true\""}
+{"timestamp":"2025-03-24 13:07:02.820","level":"info","event":"message","message":"\"rest_api\": \"false\""}
+{"timestamp":"2025-03-24 13:07:02.820","level":"info","event":"message","message":"\"peer_options\": \"\""}
+{"timestamp":"2025-03-24 13:07:02.820","level":"info","event":"message","message":"\"log_config\": \"true\""}
+{"timestamp":"2025-03-24 13:07:02.820","level":"info","event":"message","message":"\"stdin\": \"false\""}
+{"timestamp":"2025-03-24 13:07:02.820","level":"info","event":"message","message":"\"save\": \"false\""}
+{"timestamp":"2025-03-24 13:07:02.821","level":"info","event":"message","message":"\"console_messages\": \"verbose\""}
+{"timestamp":"2025-03-24 13:07:02.825","level":"info","event":"message","message":"Listening for streamer connections on port 8888"}
+{"timestamp":"2025-03-24 13:07:02.826","level":"info","event":"message","message":"Listening for SFU connections on port 8889"}
+{"timestamp":"2025-03-24 13:07:02.827","level":"info","event":"message","message":"Http server listening on port 80"}
+{"timestamp":"2025-03-24 13:07:06.395","level":"info","event":"message","message":"New player connection: ::1 (/)"}
+{"timestamp":"2025-03-24 13:07:06.397","level":"info","event":"message","message":"Registered new player: Player0"}
+{"timestamp":"2025-03-24 13:07:06.397","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"config","peerConnectionOptions":{},"protocolVersion":"1.3.0"}}
+{"timestamp":"2025-03-24 13:07:06.398","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-24 13:07:06.399","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-24 13:07:09.409","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-24 13:07:09.409","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-24 13:07:09.489","level":"info","event":"message","message":"Unregistered player: Player0"}
+{"timestamp":"2025-03-24 13:07:09.489","level":"info","event":"message","message":"Player Player0 (::1) disconnected."}
+{"timestamp":"2025-03-24 13:07:09.531","level":"info","event":"message","message":"New player connection: ::1 (/)"}
+{"timestamp":"2025-03-24 13:07:09.532","level":"info","event":"message","message":"Registered new player: Player1"}
+{"timestamp":"2025-03-24 13:07:09.532","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"config","peerConnectionOptions":{},"protocolVersion":"1.3.0"}}
+{"timestamp":"2025-03-24 13:07:09.532","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-24 13:07:09.533","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-24 13:07:12.549","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-24 13:07:12.549","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-24 13:07:15.557","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-24 13:07:15.557","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-24 13:07:16.945","level":"info","event":"message","message":"Unregistered player: Player1"}
+{"timestamp":"2025-03-24 13:07:16.946","level":"info","event":"message","message":"Player Player1 (::1) disconnected."}
+{"timestamp":"2025-03-24 13:07:17.100","level":"info","event":"message","message":"New player connection: ::1 (/)"}
+{"timestamp":"2025-03-24 13:07:17.101","level":"info","event":"message","message":"Registered new player: Player2"}
+{"timestamp":"2025-03-24 13:07:17.101","level":"info","event":"proto_message","direction":"outgoing","sender":"Player2","protoMessage":{"type":"config","peerConnectionOptions":{},"protocolVersion":"1.3.0"}}
+{"timestamp":"2025-03-24 13:07:17.102","level":"info","event":"proto_message","direction":"incoming","receiver":"Player2","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-24 13:07:17.102","level":"info","event":"proto_message","direction":"outgoing","sender":"Player2","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-24 13:07:20.112","level":"info","event":"proto_message","direction":"incoming","receiver":"Player2","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-24 13:07:20.112","level":"info","event":"proto_message","direction":"outgoing","sender":"Player2","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-24 13:07:23.115","level":"info","event":"proto_message","direction":"incoming","receiver":"Player2","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-24 13:07:23.115","level":"info","event":"proto_message","direction":"outgoing","sender":"Player2","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-24 13:07:26.119","level":"info","event":"proto_message","direction":"incoming","receiver":"Player2","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-24 13:07:26.119","level":"info","event":"proto_message","direction":"outgoing","sender":"Player2","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-24 13:07:47.273","level":"info","event":"proto_message","direction":"incoming","receiver":"Player2","protoMessage":{"type":"ping","time":1742792867272}}
+{"timestamp":"2025-03-24 13:07:47.273","level":"info","event":"proto_message","direction":"outgoing","sender":"Player2","protoMessage":{"type":"pong","time":1742792867272}}
+{"timestamp":"2025-03-24 13:10:03.203","level":"info","event":"message","message":"@epicgames-ps/wilbur v2.1.3 starting..."}
+{"timestamp":"2025-03-24 13:10:03.204","level":"info","event":"message","message":"Config:"}
+{"timestamp":"2025-03-24 13:10:03.204","level":"info","event":"message","message":"\"log_folder\": \"logs\""}
+{"timestamp":"2025-03-24 13:10:03.204","level":"info","event":"message","message":"\"log_level_console\": \"info\""}
+{"timestamp":"2025-03-24 13:10:03.205","level":"info","event":"message","message":"\"log_level_file\": \"info\""}
+{"timestamp":"2025-03-24 13:10:03.205","level":"info","event":"message","message":"\"streamer_port\": \"8888\""}
+{"timestamp":"2025-03-24 13:10:03.205","level":"info","event":"message","message":"\"player_port\": \"80\""}
+{"timestamp":"2025-03-24 13:10:03.205","level":"info","event":"message","message":"\"sfu_port\": \"8889\""}
+{"timestamp":"2025-03-24 13:10:03.205","level":"info","event":"message","message":"\"max_players\": \"0\""}
+{"timestamp":"2025-03-24 13:10:03.206","level":"info","event":"message","message":"\"serve\": \"true\""}
+{"timestamp":"2025-03-24 13:10:03.206","level":"info","event":"message","message":"\"http_root\": \"D:\\PixelStreamingInfrastructure\\SignallingWebServer\\www\""}
+{"timestamp":"2025-03-24 13:10:03.206","level":"info","event":"message","message":"\"homepage\": \"index.html\""}
+{"timestamp":"2025-03-24 13:10:03.207","level":"info","event":"message","message":"\"https\": \"false\""}
+{"timestamp":"2025-03-24 13:10:03.207","level":"info","event":"message","message":"\"https_port\": \"443\""}
+{"timestamp":"2025-03-24 13:10:03.207","level":"info","event":"message","message":"\"ssl_key_path\": \"certificates/client-key.pem\""}
+{"timestamp":"2025-03-24 13:10:03.208","level":"info","event":"message","message":"\"ssl_cert_path\": \"certificates/client-cert.pem\""}
+{"timestamp":"2025-03-24 13:10:03.208","level":"info","event":"message","message":"\"https_redirect\": \"true\""}
+{"timestamp":"2025-03-24 13:10:03.208","level":"info","event":"message","message":"\"rest_api\": \"false\""}
+{"timestamp":"2025-03-24 13:10:03.208","level":"info","event":"message","message":"\"peer_options\": \"\""}
+{"timestamp":"2025-03-24 13:10:03.209","level":"info","event":"message","message":"\"log_config\": \"true\""}
+{"timestamp":"2025-03-24 13:10:03.209","level":"info","event":"message","message":"\"stdin\": \"false\""}
+{"timestamp":"2025-03-24 13:10:03.209","level":"info","event":"message","message":"\"save\": \"false\""}
+{"timestamp":"2025-03-24 13:10:03.209","level":"info","event":"message","message":"\"console_messages\": \"verbose\""}
+{"timestamp":"2025-03-24 13:10:03.214","level":"info","event":"message","message":"Listening for streamer connections on port 8888"}
+{"timestamp":"2025-03-24 13:10:03.214","level":"info","event":"message","message":"Listening for SFU connections on port 8889"}
+{"timestamp":"2025-03-24 13:10:03.216","level":"info","event":"message","message":"Http server listening on port 80"}
+{"timestamp":"2025-03-24 13:10:07.524","level":"error","event":"message","message":"Unable to locate file index.html"}
+{"timestamp":"2025-03-24 13:10:10.607","level":"error","event":"message","message":"Unable to locate file index.html"}
+{"timestamp":"2025-03-24 13:10:11.065","level":"error","event":"message","message":"Unable to locate file index.html"}
+{"timestamp":"2025-03-24 13:10:24.177","level":"error","event":"message","message":"Unable to locate file index.html"}
+{"timestamp":"2025-03-24 13:10:25.391","level":"error","event":"message","message":"Unable to locate file index.html"}
+{"timestamp":"2025-03-24 13:10:25.564","level":"error","event":"message","message":"Unable to locate file index.html"}
+{"timestamp":"2025-03-24 13:10:35.543","level":"info","event":"message","message":"@epicgames-ps/wilbur v2.1.3 starting..."}
+{"timestamp":"2025-03-24 13:10:35.544","level":"info","event":"message","message":"Config:"}
+{"timestamp":"2025-03-24 13:10:35.544","level":"info","event":"message","message":"\"log_folder\": \"logs\""}
+{"timestamp":"2025-03-24 13:10:35.545","level":"info","event":"message","message":"\"log_level_console\": \"info\""}
+{"timestamp":"2025-03-24 13:10:35.545","level":"info","event":"message","message":"\"log_level_file\": \"info\""}
+{"timestamp":"2025-03-24 13:10:35.545","level":"info","event":"message","message":"\"streamer_port\": \"8888\""}
+{"timestamp":"2025-03-24 13:10:35.545","level":"info","event":"message","message":"\"player_port\": \"80\""}
+{"timestamp":"2025-03-24 13:10:35.546","level":"info","event":"message","message":"\"sfu_port\": \"8889\""}
+{"timestamp":"2025-03-24 13:10:35.546","level":"info","event":"message","message":"\"max_players\": \"0\""}
+{"timestamp":"2025-03-24 13:10:35.546","level":"info","event":"message","message":"\"serve\": \"true\""}
+{"timestamp":"2025-03-24 13:10:35.547","level":"info","event":"message","message":"\"http_root\": \"D:\\PixelStreamingInfrastructure\\SignallingWebServer\\www\""}
+{"timestamp":"2025-03-24 13:10:35.547","level":"info","event":"message","message":"\"homepage\": \"player.html\""}
+{"timestamp":"2025-03-24 13:10:35.547","level":"info","event":"message","message":"\"https\": \"false\""}
+{"timestamp":"2025-03-24 13:10:35.547","level":"info","event":"message","message":"\"https_port\": \"443\""}
+{"timestamp":"2025-03-24 13:10:35.547","level":"info","event":"message","message":"\"ssl_key_path\": \"certificates/client-key.pem\""}
+{"timestamp":"2025-03-24 13:10:35.547","level":"info","event":"message","message":"\"ssl_cert_path\": \"certificates/client-cert.pem\""}
+{"timestamp":"2025-03-24 13:10:35.548","level":"info","event":"message","message":"\"https_redirect\": \"true\""}
+{"timestamp":"2025-03-24 13:10:35.548","level":"info","event":"message","message":"\"rest_api\": \"false\""}
+{"timestamp":"2025-03-24 13:10:35.548","level":"info","event":"message","message":"\"peer_options\": \"\""}
+{"timestamp":"2025-03-24 13:10:35.548","level":"info","event":"message","message":"\"log_config\": \"true\""}
+{"timestamp":"2025-03-24 13:10:35.548","level":"info","event":"message","message":"\"stdin\": \"false\""}
+{"timestamp":"2025-03-24 13:10:35.549","level":"info","event":"message","message":"\"save\": \"false\""}
+{"timestamp":"2025-03-24 13:10:35.549","level":"info","event":"message","message":"\"console_messages\": \"verbose\""}
+{"timestamp":"2025-03-24 13:10:35.553","level":"info","event":"message","message":"Listening for streamer connections on port 8888"}
+{"timestamp":"2025-03-24 13:10:35.554","level":"info","event":"message","message":"Listening for SFU connections on port 8889"}
+{"timestamp":"2025-03-24 13:10:35.555","level":"info","event":"message","message":"Http server listening on port 80"}
+{"timestamp":"2025-03-24 13:10:39.518","level":"error","event":"message","message":"Unable to locate file player.html"}
+{"timestamp":"2025-03-24 13:10:40.780","level":"error","event":"message","message":"Unable to locate file player.html"}
+{"timestamp":"2025-03-24 13:10:40.895","level":"error","event":"message","message":"Unable to locate file player.html"}
+{"timestamp":"2025-03-24 13:11:26.902","level":"info","event":"message","message":"@epicgames-ps/wilbur v2.1.3 starting..."}
+{"timestamp":"2025-03-24 13:11:26.902","level":"info","event":"message","message":"Config:"}
+{"timestamp":"2025-03-24 13:11:26.903","level":"info","event":"message","message":"\"log_folder\": \"logs\""}
+{"timestamp":"2025-03-24 13:11:26.903","level":"info","event":"message","message":"\"log_level_console\": \"info\""}
+{"timestamp":"2025-03-24 13:11:26.903","level":"info","event":"message","message":"\"log_level_file\": \"info\""}
+{"timestamp":"2025-03-24 13:11:26.903","level":"info","event":"message","message":"\"streamer_port\": \"8888\""}
+{"timestamp":"2025-03-24 13:11:26.903","level":"info","event":"message","message":"\"player_port\": \"80\""}
+{"timestamp":"2025-03-24 13:11:26.903","level":"info","event":"message","message":"\"sfu_port\": \"8889\""}
+{"timestamp":"2025-03-24 13:11:26.904","level":"info","event":"message","message":"\"max_players\": \"0\""}
+{"timestamp":"2025-03-24 13:11:26.904","level":"info","event":"message","message":"\"serve\": \"true\""}
+{"timestamp":"2025-03-24 13:11:26.904","level":"info","event":"message","message":"\"http_root\": \"www\""}
+{"timestamp":"2025-03-24 13:11:26.904","level":"info","event":"message","message":"\"homepage\": \"player.html\""}
+{"timestamp":"2025-03-24 13:11:26.905","level":"info","event":"message","message":"\"https\": \"false\""}
+{"timestamp":"2025-03-24 13:11:26.905","level":"info","event":"message","message":"\"https_port\": \"443\""}
+{"timestamp":"2025-03-24 13:11:26.905","level":"info","event":"message","message":"\"ssl_key_path\": \"certificates/client-key.pem\""}
+{"timestamp":"2025-03-24 13:11:26.905","level":"info","event":"message","message":"\"ssl_cert_path\": \"certificates/client-cert.pem\""}
+{"timestamp":"2025-03-24 13:11:26.906","level":"info","event":"message","message":"\"https_redirect\": \"true\""}
+{"timestamp":"2025-03-24 13:11:26.906","level":"info","event":"message","message":"\"rest_api\": \"false\""}
+{"timestamp":"2025-03-24 13:11:26.906","level":"info","event":"message","message":"\"peer_options\": \"\""}
+{"timestamp":"2025-03-24 13:11:26.906","level":"info","event":"message","message":"\"log_config\": \"true\""}
+{"timestamp":"2025-03-24 13:11:26.907","level":"info","event":"message","message":"\"stdin\": \"false\""}
+{"timestamp":"2025-03-24 13:11:26.907","level":"info","event":"message","message":"\"save\": \"false\""}
+{"timestamp":"2025-03-24 13:11:26.907","level":"info","event":"message","message":"\"console_messages\": \"verbose\""}
+{"timestamp":"2025-03-24 13:11:26.911","level":"info","event":"message","message":"Listening for streamer connections on port 8888"}
+{"timestamp":"2025-03-24 13:11:26.911","level":"info","event":"message","message":"Listening for SFU connections on port 8889"}
+{"timestamp":"2025-03-24 13:11:26.912","level":"info","event":"message","message":"Http server listening on port 80"}
+{"timestamp":"2025-03-24 13:11:30.479","level":"info","event":"message","message":"New player connection: ::ffff:127.0.0.1 (/)"}
+{"timestamp":"2025-03-24 13:11:30.480","level":"info","event":"message","message":"Registered new player: Player0"}
+{"timestamp":"2025-03-24 13:11:30.480","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"config","peerConnectionOptions":{},"protocolVersion":"1.3.0"}}
+{"timestamp":"2025-03-24 13:11:30.497","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-24 13:11:30.497","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-24 13:11:33.502","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-24 13:11:33.502","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-24 13:11:47.745","level":"info","event":"message","message":"@epicgames-ps/wilbur v2.1.3 starting..."}
+{"timestamp":"2025-03-24 13:11:47.746","level":"info","event":"message","message":"Config:"}
+{"timestamp":"2025-03-24 13:11:47.746","level":"info","event":"message","message":"\"log_folder\": \"logs\""}
+{"timestamp":"2025-03-24 13:11:47.747","level":"info","event":"message","message":"\"log_level_console\": \"info\""}
+{"timestamp":"2025-03-24 13:11:47.747","level":"info","event":"message","message":"\"log_level_file\": \"info\""}
+{"timestamp":"2025-03-24 13:11:47.747","level":"info","event":"message","message":"\"streamer_port\": \"8888\""}
+{"timestamp":"2025-03-24 13:11:47.748","level":"info","event":"message","message":"\"player_port\": \"80\""}
+{"timestamp":"2025-03-24 13:11:47.748","level":"info","event":"message","message":"\"sfu_port\": \"8889\""}
+{"timestamp":"2025-03-24 13:11:47.748","level":"info","event":"message","message":"\"max_players\": \"0\""}
+{"timestamp":"2025-03-24 13:11:47.749","level":"info","event":"message","message":"\"serve\": \"true\""}
+{"timestamp":"2025-03-24 13:11:47.749","level":"info","event":"message","message":"\"http_root\": \"D:\\PixelStreamingInfrastructure\\SignallingWebServer\\www\""}
+{"timestamp":"2025-03-24 13:11:47.749","level":"info","event":"message","message":"\"homepage\": \"player.html\""}
+{"timestamp":"2025-03-24 13:11:47.750","level":"info","event":"message","message":"\"https\": \"false\""}
+{"timestamp":"2025-03-24 13:11:47.750","level":"info","event":"message","message":"\"https_port\": \"443\""}
+{"timestamp":"2025-03-24 13:11:47.750","level":"info","event":"message","message":"\"ssl_key_path\": \"certificates/client-key.pem\""}
+{"timestamp":"2025-03-24 13:11:47.750","level":"info","event":"message","message":"\"ssl_cert_path\": \"certificates/client-cert.pem\""}
+{"timestamp":"2025-03-24 13:11:47.750","level":"info","event":"message","message":"\"https_redirect\": \"true\""}
+{"timestamp":"2025-03-24 13:11:47.751","level":"info","event":"message","message":"\"rest_api\": \"false\""}
+{"timestamp":"2025-03-24 13:11:47.751","level":"info","event":"message","message":"\"peer_options\": \"\""}
+{"timestamp":"2025-03-24 13:11:47.751","level":"info","event":"message","message":"\"log_config\": \"true\""}
+{"timestamp":"2025-03-24 13:11:47.751","level":"info","event":"message","message":"\"stdin\": \"false\""}
+{"timestamp":"2025-03-24 13:11:47.752","level":"info","event":"message","message":"\"save\": \"false\""}
+{"timestamp":"2025-03-24 13:11:47.752","level":"info","event":"message","message":"\"console_messages\": \"verbose\""}
+{"timestamp":"2025-03-24 13:11:47.756","level":"info","event":"message","message":"Listening for streamer connections on port 8888"}
+{"timestamp":"2025-03-24 13:11:47.756","level":"info","event":"message","message":"Listening for SFU connections on port 8889"}
+{"timestamp":"2025-03-24 13:11:47.757","level":"info","event":"message","message":"Http server listening on port 80"}
+{"timestamp":"2025-03-24 13:11:51.038","level":"error","event":"message","message":"Unable to locate file player.html"}
+{"timestamp":"2025-03-24 13:11:51.595","level":"error","event":"message","message":"Unable to locate file player.html"}
+{"timestamp":"2025-03-24 13:11:51.757","level":"error","event":"message","message":"Unable to locate file player.html"}
+{"timestamp":"2025-03-24 13:11:51.943","level":"error","event":"message","message":"Unable to locate file player.html"}
+{"timestamp":"2025-03-24 13:11:52.103","level":"error","event":"message","message":"Unable to locate file player.html"}
+{"timestamp":"2025-03-24 13:11:52.297","level":"error","event":"message","message":"Unable to locate file player.html"}
+{"timestamp":"2025-03-24 13:12:53.758","level":"info","event":"message","message":"@epicgames-ps/wilbur v2.1.3 starting..."}
+{"timestamp":"2025-03-24 13:12:53.759","level":"info","event":"message","message":"Config:"}
+{"timestamp":"2025-03-24 13:12:53.759","level":"info","event":"message","message":"\"log_folder\": \"logs\""}
+{"timestamp":"2025-03-24 13:12:53.759","level":"info","event":"message","message":"\"log_level_console\": \"info\""}
+{"timestamp":"2025-03-24 13:12:53.760","level":"info","event":"message","message":"\"log_level_file\": \"info\""}
+{"timestamp":"2025-03-24 13:12:53.760","level":"info","event":"message","message":"\"streamer_port\": \"8888\""}
+{"timestamp":"2025-03-24 13:12:53.760","level":"info","event":"message","message":"\"player_port\": \"80\""}
+{"timestamp":"2025-03-24 13:12:53.760","level":"info","event":"message","message":"\"sfu_port\": \"8889\""}
+{"timestamp":"2025-03-24 13:12:53.761","level":"info","event":"message","message":"\"max_players\": \"0\""}
+{"timestamp":"2025-03-24 13:12:53.761","level":"info","event":"message","message":"\"serve\": \"true\""}
+{"timestamp":"2025-03-24 13:12:53.761","level":"info","event":"message","message":"\"http_root\": \"D:\\PixelStreamingInfrastructure\\SignallingWebServer\\www\""}
+{"timestamp":"2025-03-24 13:12:53.762","level":"info","event":"message","message":"\"homepage\": \"player.html\""}
+{"timestamp":"2025-03-24 13:12:53.762","level":"info","event":"message","message":"\"https\": \"false\""}
+{"timestamp":"2025-03-24 13:12:53.762","level":"info","event":"message","message":"\"https_port\": \"443\""}
+{"timestamp":"2025-03-24 13:12:53.763","level":"info","event":"message","message":"\"ssl_key_path\": \"certificates/client-key.pem\""}
+{"timestamp":"2025-03-24 13:12:53.763","level":"info","event":"message","message":"\"ssl_cert_path\": \"certificates/client-cert.pem\""}
+{"timestamp":"2025-03-24 13:12:53.763","level":"info","event":"message","message":"\"https_redirect\": \"true\""}
+{"timestamp":"2025-03-24 13:12:53.763","level":"info","event":"message","message":"\"rest_api\": \"false\""}
+{"timestamp":"2025-03-24 13:12:53.763","level":"info","event":"message","message":"\"peer_options\": \"\""}
+{"timestamp":"2025-03-24 13:12:53.763","level":"info","event":"message","message":"\"log_config\": \"true\""}
+{"timestamp":"2025-03-24 13:12:53.764","level":"info","event":"message","message":"\"stdin\": \"false\""}
+{"timestamp":"2025-03-24 13:12:53.764","level":"info","event":"message","message":"\"save\": \"false\""}
+{"timestamp":"2025-03-24 13:12:53.764","level":"info","event":"message","message":"\"console_messages\": \"verbose\""}
+{"timestamp":"2025-03-24 13:12:53.768","level":"info","event":"message","message":"Listening for streamer connections on port 8888"}
+{"timestamp":"2025-03-24 13:12:53.769","level":"info","event":"message","message":"Listening for SFU connections on port 8889"}
+{"timestamp":"2025-03-24 13:12:53.770","level":"info","event":"message","message":"Http server listening on port 80"}
+{"timestamp":"2025-03-24 13:12:57.652","level":"error","event":"message","message":"Unable to locate file player.html"}
+{"timestamp":"2025-03-24 13:12:58.290","level":"error","event":"message","message":"Unable to locate file player.html"}
+{"timestamp":"2025-03-24 13:12:58.646","level":"error","event":"message","message":"Unable to locate file player.html"}
+{"timestamp":"2025-03-24 13:12:58.800","level":"error","event":"message","message":"Unable to locate file player.html"}
+{"timestamp":"2025-03-24 13:14:29.941","level":"info","event":"message","message":"@epicgames-ps/wilbur v2.1.3 starting..."}
+{"timestamp":"2025-03-24 13:14:29.942","level":"info","event":"message","message":"Config:"}
+{"timestamp":"2025-03-24 13:14:29.942","level":"info","event":"message","message":"\"log_folder\": \"logs\""}
+{"timestamp":"2025-03-24 13:14:29.942","level":"info","event":"message","message":"\"log_level_console\": \"info\""}
+{"timestamp":"2025-03-24 13:14:29.943","level":"info","event":"message","message":"\"log_level_file\": \"info\""}
+{"timestamp":"2025-03-24 13:14:29.943","level":"info","event":"message","message":"\"streamer_port\": \"8888\""}
+{"timestamp":"2025-03-24 13:14:29.943","level":"info","event":"message","message":"\"player_port\": \"80\""}
+{"timestamp":"2025-03-24 13:14:29.944","level":"info","event":"message","message":"\"sfu_port\": \"8889\""}
+{"timestamp":"2025-03-24 13:14:29.944","level":"info","event":"message","message":"\"max_players\": \"0\""}
+{"timestamp":"2025-03-24 13:14:29.945","level":"info","event":"message","message":"\"serve\": \"true\""}
+{"timestamp":"2025-03-24 13:14:29.945","level":"info","event":"message","message":"\"http_root\": \"D:\\PixelStreamingInfrastructure\\SignallingWebServer\\www\""}
+{"timestamp":"2025-03-24 13:14:29.945","level":"info","event":"message","message":"\"homepage\": \"player.html\""}
+{"timestamp":"2025-03-24 13:14:29.945","level":"info","event":"message","message":"\"https\": \"false\""}
+{"timestamp":"2025-03-24 13:14:29.946","level":"info","event":"message","message":"\"https_port\": \"443\""}
+{"timestamp":"2025-03-24 13:14:29.946","level":"info","event":"message","message":"\"ssl_key_path\": \"certificates/client-key.pem\""}
+{"timestamp":"2025-03-24 13:14:29.946","level":"info","event":"message","message":"\"ssl_cert_path\": \"certificates/client-cert.pem\""}
+{"timestamp":"2025-03-24 13:14:29.946","level":"info","event":"message","message":"\"https_redirect\": \"true\""}
+{"timestamp":"2025-03-24 13:14:29.947","level":"info","event":"message","message":"\"rest_api\": \"false\""}
+{"timestamp":"2025-03-24 13:14:29.947","level":"info","event":"message","message":"\"peer_options\": \"\""}
+{"timestamp":"2025-03-24 13:14:29.948","level":"info","event":"message","message":"\"log_config\": \"true\""}
+{"timestamp":"2025-03-24 13:14:29.948","level":"info","event":"message","message":"\"stdin\": \"false\""}
+{"timestamp":"2025-03-24 13:14:29.948","level":"info","event":"message","message":"\"save\": \"false\""}
+{"timestamp":"2025-03-24 13:14:29.953","level":"info","event":"message","message":"Listening for streamer connections on port 8888"}
+{"timestamp":"2025-03-24 13:14:29.953","level":"info","event":"message","message":"Listening for SFU connections on port 8889"}
+{"timestamp":"2025-03-24 13:14:29.955","level":"info","event":"message","message":"Http server listening on port 80"}
+{"timestamp":"2025-03-24 13:14:32.783","level":"error","event":"message","message":"Unable to locate file player.html"}
+{"timestamp":"2025-03-24 13:14:33.287","level":"error","event":"message","message":"Unable to locate file player.html"}
+{"timestamp":"2025-03-24 13:14:33.451","level":"error","event":"message","message":"Unable to locate file player.html"}
+{"timestamp":"2025-03-24 13:14:33.641","level":"error","event":"message","message":"Unable to locate file player.html"}
+{"timestamp":"2025-03-24 13:14:36.964","level":"error","event":"message","message":"Unable to locate file player.html"}
+{"timestamp":"2025-03-24 13:14:38.254","level":"error","event":"message","message":"Unable to locate file player.html"}
+{"timestamp":"2025-03-24 13:15:41.186","level":"info","event":"message","message":"@epicgames-ps/wilbur v2.1.3 starting..."}
+{"timestamp":"2025-03-24 13:15:41.187","level":"info","event":"message","message":"Config:"}
+{"timestamp":"2025-03-24 13:15:41.187","level":"info","event":"message","message":"\"log_folder\": \"logs\""}
+{"timestamp":"2025-03-24 13:15:41.188","level":"info","event":"message","message":"\"log_level_console\": \"info\""}
+{"timestamp":"2025-03-24 13:15:41.188","level":"info","event":"message","message":"\"log_level_file\": \"info\""}
+{"timestamp":"2025-03-24 13:15:41.188","level":"info","event":"message","message":"\"streamer_port\": \"8888\""}
+{"timestamp":"2025-03-24 13:15:41.188","level":"info","event":"message","message":"\"player_port\": \"80\""}
+{"timestamp":"2025-03-24 13:15:41.189","level":"info","event":"message","message":"\"sfu_port\": \"8889\""}
+{"timestamp":"2025-03-24 13:15:41.189","level":"info","event":"message","message":"\"max_players\": \"0\""}
+{"timestamp":"2025-03-24 13:15:41.189","level":"info","event":"message","message":"\"serve\": \"true\""}
+{"timestamp":"2025-03-24 13:15:41.190","level":"info","event":"message","message":"\"http_root\": \"www\""}
+{"timestamp":"2025-03-24 13:15:41.190","level":"info","event":"message","message":"\"homepage\": \"player.html\""}
+{"timestamp":"2025-03-24 13:15:41.190","level":"info","event":"message","message":"\"https\": \"false\""}
+{"timestamp":"2025-03-24 13:15:41.190","level":"info","event":"message","message":"\"https_port\": \"443\""}
+{"timestamp":"2025-03-24 13:15:41.190","level":"info","event":"message","message":"\"ssl_key_path\": \"certificates/client-key.pem\""}
+{"timestamp":"2025-03-24 13:15:41.191","level":"info","event":"message","message":"\"ssl_cert_path\": \"certificates/client-cert.pem\""}
+{"timestamp":"2025-03-24 13:15:41.191","level":"info","event":"message","message":"\"https_redirect\": \"true\""}
+{"timestamp":"2025-03-24 13:15:41.191","level":"info","event":"message","message":"\"rest_api\": \"false\""}
+{"timestamp":"2025-03-24 13:15:41.191","level":"info","event":"message","message":"\"peer_options\": \"\""}
+{"timestamp":"2025-03-24 13:15:41.191","level":"info","event":"message","message":"\"log_config\": \"true\""}
+{"timestamp":"2025-03-24 13:15:41.191","level":"info","event":"message","message":"\"stdin\": \"false\""}
+{"timestamp":"2025-03-24 13:15:41.191","level":"info","event":"message","message":"\"save\": \"false\""}
+{"timestamp":"2025-03-24 13:15:41.191","level":"info","event":"message","message":"\"console_messages\": \"verbose\""}
+{"timestamp":"2025-03-24 13:15:41.196","level":"info","event":"message","message":"Listening for streamer connections on port 8888"}
+{"timestamp":"2025-03-24 13:15:41.197","level":"info","event":"message","message":"Listening for SFU connections on port 8889"}
+{"timestamp":"2025-03-24 13:15:41.198","level":"info","event":"message","message":"Http server listening on port 80"}
+{"timestamp":"2025-03-24 13:15:57.287","level":"info","event":"message","message":"New player connection: ::ffff:127.0.0.1 (/)"}
+{"timestamp":"2025-03-24 13:15:57.288","level":"info","event":"message","message":"Registered new player: Player0"}
+{"timestamp":"2025-03-24 13:15:57.289","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"config","peerConnectionOptions":{},"protocolVersion":"1.3.0"}}
+{"timestamp":"2025-03-24 13:15:57.290","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-24 13:15:57.290","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-24 13:15:58.421","level":"info","event":"message","message":"Unregistered player: Player0"}
+{"timestamp":"2025-03-24 13:15:58.421","level":"info","event":"message","message":"Player Player0 (::ffff:127.0.0.1) disconnected."}
+{"timestamp":"2025-03-24 13:17:30.877","level":"info","event":"message","message":"@epicgames-ps/wilbur v2.1.3 starting..."}
+{"timestamp":"2025-03-24 13:17:30.878","level":"info","event":"message","message":"Config:"}
+{"timestamp":"2025-03-24 13:17:30.878","level":"info","event":"message","message":"\"log_folder\": \"logs\""}
+{"timestamp":"2025-03-24 13:17:30.879","level":"info","event":"message","message":"\"log_level_console\": \"info\""}
+{"timestamp":"2025-03-24 13:17:30.879","level":"info","event":"message","message":"\"log_level_file\": \"info\""}
+{"timestamp":"2025-03-24 13:17:30.879","level":"info","event":"message","message":"\"streamer_port\": \"8888\""}
+{"timestamp":"2025-03-24 13:17:30.879","level":"info","event":"message","message":"\"player_port\": \"80\""}
+{"timestamp":"2025-03-24 13:17:30.880","level":"info","event":"message","message":"\"sfu_port\": \"8889\""}
+{"timestamp":"2025-03-24 13:17:30.880","level":"info","event":"message","message":"\"max_players\": \"0\""}
+{"timestamp":"2025-03-24 13:17:30.880","level":"info","event":"message","message":"\"serve\": \"true\""}
+{"timestamp":"2025-03-24 13:17:30.880","level":"info","event":"message","message":"\"http_root\": \"www_react\""}
+{"timestamp":"2025-03-24 13:17:30.881","level":"info","event":"message","message":"\"homepage\": \"index.html\""}
+{"timestamp":"2025-03-24 13:17:30.881","level":"info","event":"message","message":"\"https\": \"false\""}
+{"timestamp":"2025-03-24 13:17:30.881","level":"info","event":"message","message":"\"https_port\": \"443\""}
+{"timestamp":"2025-03-24 13:17:30.881","level":"info","event":"message","message":"\"ssl_key_path\": \"certificates/client-key.pem\""}
+{"timestamp":"2025-03-24 13:17:30.881","level":"info","event":"message","message":"\"ssl_cert_path\": \"certificates/client-cert.pem\""}
+{"timestamp":"2025-03-24 13:17:30.881","level":"info","event":"message","message":"\"https_redirect\": \"true\""}
+{"timestamp":"2025-03-24 13:17:30.881","level":"info","event":"message","message":"\"rest_api\": \"false\""}
+{"timestamp":"2025-03-24 13:17:30.882","level":"info","event":"message","message":"\"peer_options\": \"\""}
+{"timestamp":"2025-03-24 13:17:30.882","level":"info","event":"message","message":"\"log_config\": \"true\""}
+{"timestamp":"2025-03-24 13:17:30.882","level":"info","event":"message","message":"\"stdin\": \"false\""}
+{"timestamp":"2025-03-24 13:17:30.882","level":"info","event":"message","message":"\"save\": \"false\""}
+{"timestamp":"2025-03-24 13:17:30.882","level":"info","event":"message","message":"\"console_messages\": \"verbose\""}
+{"timestamp":"2025-03-24 13:17:30.886","level":"info","event":"message","message":"Listening for streamer connections on port 8888"}
+{"timestamp":"2025-03-24 13:17:30.887","level":"info","event":"message","message":"Listening for SFU connections on port 8889"}
+{"timestamp":"2025-03-24 13:17:30.888","level":"info","event":"message","message":"Http server listening on port 80"}
+{"timestamp":"2025-03-24 13:17:33.860","level":"info","event":"message","message":"New player connection: ::1 (/)"}
+{"timestamp":"2025-03-24 13:17:33.861","level":"info","event":"message","message":"Registered new player: Player0"}
+{"timestamp":"2025-03-24 13:17:33.861","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"config","peerConnectionOptions":{},"protocolVersion":"1.3.0"}}
+{"timestamp":"2025-03-24 13:17:33.863","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-24 13:17:33.863","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-24 13:17:34.504","level":"info","event":"message","message":"Unregistered player: Player0"}
+{"timestamp":"2025-03-24 13:17:34.505","level":"info","event":"message","message":"Player Player0 (::1) disconnected."}
+{"timestamp":"2025-03-24 13:17:34.544","level":"info","event":"message","message":"New player connection: ::1 (/)"}
+{"timestamp":"2025-03-24 13:17:34.544","level":"info","event":"message","message":"Registered new player: Player1"}
+{"timestamp":"2025-03-24 13:17:34.544","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"config","peerConnectionOptions":{},"protocolVersion":"1.3.0"}}
+{"timestamp":"2025-03-24 13:17:34.545","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-24 13:17:34.545","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-24 13:17:34.659","level":"info","event":"message","message":"Unregistered player: Player1"}
+{"timestamp":"2025-03-24 13:17:34.659","level":"info","event":"message","message":"Player Player1 (::1) disconnected."}
+{"timestamp":"2025-03-24 13:17:34.697","level":"info","event":"message","message":"New player connection: ::1 (/)"}
+{"timestamp":"2025-03-24 13:17:34.697","level":"info","event":"message","message":"Registered new player: Player2"}
+{"timestamp":"2025-03-24 13:17:34.697","level":"info","event":"proto_message","direction":"outgoing","sender":"Player2","protoMessage":{"type":"config","peerConnectionOptions":{},"protocolVersion":"1.3.0"}}
+{"timestamp":"2025-03-24 13:17:34.698","level":"info","event":"proto_message","direction":"incoming","receiver":"Player2","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-24 13:17:34.698","level":"info","event":"proto_message","direction":"outgoing","sender":"Player2","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-24 13:17:37.701","level":"info","event":"proto_message","direction":"incoming","receiver":"Player2","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-24 13:17:37.701","level":"info","event":"proto_message","direction":"outgoing","sender":"Player2","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-24 13:17:40.716","level":"info","event":"proto_message","direction":"incoming","receiver":"Player2","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-24 13:17:40.716","level":"info","event":"proto_message","direction":"outgoing","sender":"Player2","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-24 13:17:43.719","level":"info","event":"proto_message","direction":"incoming","receiver":"Player2","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-24 13:17:43.719","level":"info","event":"proto_message","direction":"outgoing","sender":"Player2","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-24 13:18:05.271","level":"info","event":"proto_message","direction":"incoming","receiver":"Player2","protoMessage":{"type":"ping","time":1742793485270}}
+{"timestamp":"2025-03-24 13:18:05.271","level":"info","event":"proto_message","direction":"outgoing","sender":"Player2","protoMessage":{"type":"pong","time":1742793485270}}
+{"timestamp":"2025-03-24 13:18:35.278","level":"info","event":"proto_message","direction":"incoming","receiver":"Player2","protoMessage":{"type":"ping","time":1742793515278}}
+{"timestamp":"2025-03-24 13:18:35.278","level":"info","event":"proto_message","direction":"outgoing","sender":"Player2","protoMessage":{"type":"pong","time":1742793515278}}
+{"timestamp":"2025-03-24 14:03:32.184","level":"info","event":"message","message":"@epicgames-ps/wilbur v2.1.3 starting..."}
+{"timestamp":"2025-03-24 14:03:32.185","level":"info","event":"message","message":"Config:"}
+{"timestamp":"2025-03-24 14:03:32.185","level":"info","event":"message","message":"\"log_folder\": \"logs\""}
+{"timestamp":"2025-03-24 14:03:32.185","level":"info","event":"message","message":"\"log_level_console\": \"info\""}
+{"timestamp":"2025-03-24 14:03:32.186","level":"info","event":"message","message":"\"log_level_file\": \"info\""}
+{"timestamp":"2025-03-24 14:03:32.186","level":"info","event":"message","message":"\"streamer_port\": \"8888\""}
+{"timestamp":"2025-03-24 14:03:32.186","level":"info","event":"message","message":"\"player_port\": \"80\""}
+{"timestamp":"2025-03-24 14:03:32.186","level":"info","event":"message","message":"\"sfu_port\": \"8889\""}
+{"timestamp":"2025-03-24 14:03:32.187","level":"info","event":"message","message":"\"max_players\": \"0\""}
+{"timestamp":"2025-03-24 14:03:32.187","level":"info","event":"message","message":"\"serve\": \"true\""}
+{"timestamp":"2025-03-24 14:03:32.187","level":"info","event":"message","message":"\"http_root\": \"www\""}
+{"timestamp":"2025-03-24 14:03:32.187","level":"info","event":"message","message":"\"homepage\": \"player.html\""}
+{"timestamp":"2025-03-24 14:03:32.188","level":"info","event":"message","message":"\"https\": \"false\""}
+{"timestamp":"2025-03-24 14:03:32.188","level":"info","event":"message","message":"\"https_port\": \"443\""}
+{"timestamp":"2025-03-24 14:03:32.189","level":"info","event":"message","message":"\"ssl_key_path\": \"certificates/client-key.pem\""}
+{"timestamp":"2025-03-24 14:03:32.189","level":"info","event":"message","message":"\"ssl_cert_path\": \"certificates/client-cert.pem\""}
+{"timestamp":"2025-03-24 14:03:32.189","level":"info","event":"message","message":"\"https_redirect\": \"true\""}
+{"timestamp":"2025-03-24 14:03:32.189","level":"info","event":"message","message":"\"rest_api\": \"false\""}
+{"timestamp":"2025-03-24 14:03:32.190","level":"info","event":"message","message":"\"peer_options\": \"\""}
+{"timestamp":"2025-03-24 14:03:32.190","level":"info","event":"message","message":"\"log_config\": \"true\""}
+{"timestamp":"2025-03-24 14:03:32.190","level":"info","event":"message","message":"\"stdin\": \"false\""}
+{"timestamp":"2025-03-24 14:03:32.190","level":"info","event":"message","message":"\"save\": \"false\""}
+{"timestamp":"2025-03-24 14:03:32.190","level":"info","event":"message","message":"\"console_messages\": \"verbose\""}
+{"timestamp":"2025-03-24 14:03:32.195","level":"info","event":"message","message":"Listening for streamer connections on port 8888"}
+{"timestamp":"2025-03-24 14:03:32.195","level":"info","event":"message","message":"Listening for SFU connections on port 8889"}
+{"timestamp":"2025-03-24 14:03:32.196","level":"info","event":"message","message":"Http server listening on port 80"}
+{"timestamp":"2025-03-24 14:04:00.957","level":"info","event":"message","message":"New player connection: ::ffff:127.0.0.1 (/)"}
+{"timestamp":"2025-03-24 14:04:00.958","level":"info","event":"message","message":"Registered new player: Player0"}
+{"timestamp":"2025-03-24 14:04:00.959","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"config","peerConnectionOptions":{},"protocolVersion":"1.3.0"}}
+{"timestamp":"2025-03-24 14:04:00.962","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-24 14:04:00.963","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-24 14:04:03.974","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-24 14:04:03.974","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-24 14:04:06.986","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-24 14:04:06.987","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-24 14:04:09.989","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-24 14:04:09.989","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-24 14:04:31.268","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"ping","time":1742796271267}}
+{"timestamp":"2025-03-24 14:04:31.268","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"pong","time":1742796271267}}
+{"timestamp":"2025-03-24 14:05:01.265","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"ping","time":1742796301266}}
+{"timestamp":"2025-03-24 14:05:01.266","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"pong","time":1742796301266}}
+{"timestamp":"2025-03-24 14:05:31.270","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"ping","time":1742796331271}}
+{"timestamp":"2025-03-24 14:05:31.271","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"pong","time":1742796331271}}
+{"timestamp":"2025-03-24 14:06:01.278","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"ping","time":1742796361278}}
+{"timestamp":"2025-03-24 14:06:01.278","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"pong","time":1742796361278}}
+{"timestamp":"2025-03-24 14:06:33.610","level":"info","event":"message","message":"@epicgames-ps/wilbur v2.1.3 starting..."}
+{"timestamp":"2025-03-24 14:06:33.611","level":"info","event":"message","message":"Config:"}
+{"timestamp":"2025-03-24 14:06:33.611","level":"info","event":"message","message":"\"log_folder\": \"logs\""}
+{"timestamp":"2025-03-24 14:06:33.611","level":"info","event":"message","message":"\"log_level_console\": \"info\""}
+{"timestamp":"2025-03-24 14:06:33.612","level":"info","event":"message","message":"\"log_level_file\": \"info\""}
+{"timestamp":"2025-03-24 14:06:33.612","level":"info","event":"message","message":"\"streamer_port\": \"8888\""}
+{"timestamp":"2025-03-24 14:06:33.612","level":"info","event":"message","message":"\"player_port\": \"80\""}
+{"timestamp":"2025-03-24 14:06:33.612","level":"info","event":"message","message":"\"sfu_port\": \"8889\""}
+{"timestamp":"2025-03-24 14:06:33.613","level":"info","event":"message","message":"\"max_players\": \"0\""}
+{"timestamp":"2025-03-24 14:06:33.613","level":"info","event":"message","message":"\"serve\": \"true\""}
+{"timestamp":"2025-03-24 14:06:33.613","level":"info","event":"message","message":"\"http_root\": \"www\""}
+{"timestamp":"2025-03-24 14:06:33.613","level":"info","event":"message","message":"\"homepage\": \"player.html\""}
+{"timestamp":"2025-03-24 14:06:33.614","level":"info","event":"message","message":"\"https\": \"false\""}
+{"timestamp":"2025-03-24 14:06:33.614","level":"info","event":"message","message":"\"https_port\": \"443\""}
+{"timestamp":"2025-03-24 14:06:33.614","level":"info","event":"message","message":"\"ssl_key_path\": \"certificates/client-key.pem\""}
+{"timestamp":"2025-03-24 14:06:33.614","level":"info","event":"message","message":"\"ssl_cert_path\": \"certificates/client-cert.pem\""}
+{"timestamp":"2025-03-24 14:06:33.614","level":"info","event":"message","message":"\"https_redirect\": \"true\""}
+{"timestamp":"2025-03-24 14:06:33.614","level":"info","event":"message","message":"\"rest_api\": \"false\""}
+{"timestamp":"2025-03-24 14:06:33.615","level":"info","event":"message","message":"\"peer_options\": \"\""}
+{"timestamp":"2025-03-24 14:06:33.615","level":"info","event":"message","message":"\"log_config\": \"true\""}
+{"timestamp":"2025-03-24 14:06:33.615","level":"info","event":"message","message":"\"stdin\": \"false\""}
+{"timestamp":"2025-03-24 14:06:33.615","level":"info","event":"message","message":"\"save\": \"false\""}
+{"timestamp":"2025-03-24 14:06:33.615","level":"info","event":"message","message":"\"console_messages\": \"verbose\""}
+{"timestamp":"2025-03-24 14:06:33.619","level":"info","event":"message","message":"Listening for streamer connections on port 8888"}
+{"timestamp":"2025-03-24 14:06:33.620","level":"info","event":"message","message":"Listening for SFU connections on port 8889"}
+{"timestamp":"2025-03-24 14:06:33.621","level":"info","event":"message","message":"Http server listening on port 80"}
+{"timestamp":"2025-03-24 14:07:46.500","level":"info","event":"message","message":"@epicgames-ps/wilbur v2.1.3 starting..."}
+{"timestamp":"2025-03-24 14:07:46.500","level":"info","event":"message","message":"Config:"}
+{"timestamp":"2025-03-24 14:07:46.501","level":"info","event":"message","message":"\"log_folder\": \"logs\""}
+{"timestamp":"2025-03-24 14:07:46.501","level":"info","event":"message","message":"\"log_level_console\": \"info\""}
+{"timestamp":"2025-03-24 14:07:46.501","level":"info","event":"message","message":"\"log_level_file\": \"info\""}
+{"timestamp":"2025-03-24 14:07:46.501","level":"info","event":"message","message":"\"streamer_port\": \"8888\""}
+{"timestamp":"2025-03-24 14:07:46.503","level":"info","event":"message","message":"\"player_port\": \"80\""}
+{"timestamp":"2025-03-24 14:07:46.503","level":"info","event":"message","message":"\"sfu_port\": \"8889\""}
+{"timestamp":"2025-03-24 14:07:46.503","level":"info","event":"message","message":"\"max_players\": \"0\""}
+{"timestamp":"2025-03-24 14:07:46.504","level":"info","event":"message","message":"\"serve\": \"true\""}
+{"timestamp":"2025-03-24 14:07:46.504","level":"info","event":"message","message":"\"http_root\": \"www\""}
+{"timestamp":"2025-03-24 14:07:46.504","level":"info","event":"message","message":"\"homepage\": \"player.html\""}
+{"timestamp":"2025-03-24 14:07:46.504","level":"info","event":"message","message":"\"https\": \"false\""}
+{"timestamp":"2025-03-24 14:07:46.504","level":"info","event":"message","message":"\"https_port\": \"443\""}
+{"timestamp":"2025-03-24 14:07:46.505","level":"info","event":"message","message":"\"ssl_key_path\": \"certificates/client-key.pem\""}
+{"timestamp":"2025-03-24 14:07:46.505","level":"info","event":"message","message":"\"ssl_cert_path\": \"certificates/client-cert.pem\""}
+{"timestamp":"2025-03-24 14:07:46.505","level":"info","event":"message","message":"\"https_redirect\": \"true\""}
+{"timestamp":"2025-03-24 14:07:46.505","level":"info","event":"message","message":"\"rest_api\": \"false\""}
+{"timestamp":"2025-03-24 14:07:46.505","level":"info","event":"message","message":"\"peer_options\": \"\""}
+{"timestamp":"2025-03-24 14:07:46.505","level":"info","event":"message","message":"\"log_config\": \"true\""}
+{"timestamp":"2025-03-24 14:07:46.506","level":"info","event":"message","message":"\"stdin\": \"false\""}
+{"timestamp":"2025-03-24 14:07:46.506","level":"info","event":"message","message":"\"save\": \"false\""}
+{"timestamp":"2025-03-24 14:07:46.506","level":"info","event":"message","message":"\"console_messages\": \"verbose\""}
+{"timestamp":"2025-03-24 14:07:46.511","level":"info","event":"message","message":"Listening for streamer connections on port 8888"}
+{"timestamp":"2025-03-24 14:07:46.511","level":"info","event":"message","message":"Listening for SFU connections on port 8889"}
+{"timestamp":"2025-03-24 14:07:46.513","level":"info","event":"message","message":"Http server listening on port 80"}
+{"timestamp":"2025-03-24 14:08:01.749","level":"info","event":"message","message":"New player connection: ::ffff:127.0.0.1 (/)"}
+{"timestamp":"2025-03-24 14:08:01.750","level":"info","event":"message","message":"Registered new player: Player0"}
+{"timestamp":"2025-03-24 14:08:01.752","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"config","peerConnectionOptions":{},"protocolVersion":"1.3.0"}}
+{"timestamp":"2025-03-24 14:08:01.754","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-24 14:08:01.754","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-24 14:08:04.769","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-24 14:08:04.769","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-24 14:08:07.772","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-24 14:08:07.772","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-24 14:08:11.284","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-24 14:08:11.285","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-24 14:08:32.279","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"ping","time":1742796512278}}
+{"timestamp":"2025-03-24 14:08:32.279","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"pong","time":1742796512278}}
+{"timestamp":"2025-03-24 14:09:02.273","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"ping","time":1742796542273}}
+{"timestamp":"2025-03-24 14:09:02.273","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"pong","time":1742796542273}}
+{"timestamp":"2025-03-24 14:09:32.275","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"ping","time":1742796572275}}
+{"timestamp":"2025-03-24 14:09:32.276","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"pong","time":1742796572275}}
+{"timestamp":"2025-03-24 14:10:02.280","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"ping","time":1742796602280}}
+{"timestamp":"2025-03-24 14:10:02.281","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"pong","time":1742796602280}}
+{"timestamp":"2025-03-24 14:10:33.275","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"ping","time":1742796633274}}
+{"timestamp":"2025-03-24 14:10:33.275","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"pong","time":1742796633274}}
+{"timestamp":"2025-03-24 14:11:33.266","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"ping","time":1742796693265}}
+{"timestamp":"2025-03-24 14:11:33.267","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"pong","time":1742796693265}}
+{"timestamp":"2025-03-24 14:12:33.275","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"ping","time":1742796753275}}
+{"timestamp":"2025-03-24 14:12:33.275","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"pong","time":1742796753275}}
+{"timestamp":"2025-03-24 14:13:33.280","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"ping","time":1742796813280}}
+{"timestamp":"2025-03-24 14:13:33.280","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"pong","time":1742796813280}}
+{"timestamp":"2025-03-24 14:14:33.281","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"ping","time":1742796873281}}
+{"timestamp":"2025-03-24 14:14:33.281","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"pong","time":1742796873281}}
+{"timestamp":"2025-03-24 14:15:33.274","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"ping","time":1742796933274}}
+{"timestamp":"2025-03-24 14:15:33.274","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"pong","time":1742796933274}}
+{"timestamp":"2025-03-24 14:16:33.268","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"ping","time":1742796993268}}
+{"timestamp":"2025-03-24 14:16:33.268","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"pong","time":1742796993268}}
+{"timestamp":"2025-03-24 14:17:33.274","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"ping","time":1742797053274}}
+{"timestamp":"2025-03-24 14:17:33.275","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"pong","time":1742797053274}}
+{"timestamp":"2025-03-24 14:18:33.280","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"ping","time":1742797113280}}
+{"timestamp":"2025-03-24 14:18:33.280","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"pong","time":1742797113280}}
+{"timestamp":"2025-03-24 14:19:33.277","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"ping","time":1742797173276}}
+{"timestamp":"2025-03-24 14:19:33.277","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"pong","time":1742797173276}}
+{"timestamp":"2025-03-24 14:20:33.271","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"ping","time":1742797233271}}
+{"timestamp":"2025-03-24 14:20:33.271","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"pong","time":1742797233271}}
+{"timestamp":"2025-03-24 14:21:33.276","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"ping","time":1742797293276}}
+{"timestamp":"2025-03-24 14:21:33.276","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"pong","time":1742797293276}}
+{"timestamp":"2025-03-24 14:22:33.280","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"ping","time":1742797353279}}
+{"timestamp":"2025-03-24 14:22:33.280","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"pong","time":1742797353279}}
+{"timestamp":"2025-03-24 14:23:33.277","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"ping","time":1742797413276}}
+{"timestamp":"2025-03-24 14:23:33.277","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"pong","time":1742797413276}}
+{"timestamp":"2025-03-24 14:24:33.273","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"ping","time":1742797473274}}
+{"timestamp":"2025-03-24 14:24:33.274","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"pong","time":1742797473274}}
+{"timestamp":"2025-03-24 14:25:33.267","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"ping","time":1742797533266}}
+{"timestamp":"2025-03-24 14:25:33.267","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"pong","time":1742797533266}}
+{"timestamp":"2025-03-24 14:26:33.275","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"ping","time":1742797593275}}
+{"timestamp":"2025-03-24 14:26:33.275","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"pong","time":1742797593275}}
+{"timestamp":"2025-03-24 14:27:33.276","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"ping","time":1742797653276}}
+{"timestamp":"2025-03-24 14:27:33.276","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"pong","time":1742797653276}}
+{"timestamp":"2025-03-24 14:28:33.269","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"ping","time":1742797713270}}
+{"timestamp":"2025-03-24 14:28:33.270","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"pong","time":1742797713270}}
+{"timestamp":"2025-03-24 14:29:33.265","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"ping","time":1742797773265}}
+{"timestamp":"2025-03-24 14:29:33.265","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"pong","time":1742797773265}}
+{"timestamp":"2025-03-24 14:30:33.280","level":"info","event":"proto_message","direction":"incoming","receiver":"Player0","protoMessage":{"type":"ping","time":1742797833280}}
+{"timestamp":"2025-03-24 14:30:33.280","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"pong","time":1742797833280}}

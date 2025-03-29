@@ -1,0 +1,394 @@
+{"timestamp":"2025-03-27 19:37:44.690","level":"info","event":"message","message":"@epicgames-ps/wilbur v2.1.3 starting..."}
+{"timestamp":"2025-03-27 19:37:44.690","level":"info","event":"message","message":"Config:"}
+{"timestamp":"2025-03-27 19:37:44.690","level":"info","event":"message","message":"\"log_folder\": \"logs\""}
+{"timestamp":"2025-03-27 19:37:44.691","level":"info","event":"message","message":"\"log_level_console\": \"info\""}
+{"timestamp":"2025-03-27 19:37:44.691","level":"info","event":"message","message":"\"log_level_file\": \"info\""}
+{"timestamp":"2025-03-27 19:37:44.691","level":"info","event":"message","message":"\"streamer_port\": \"8888\""}
+{"timestamp":"2025-03-27 19:37:44.691","level":"info","event":"message","message":"\"player_port\": \"80\""}
+{"timestamp":"2025-03-27 19:37:44.691","level":"info","event":"message","message":"\"sfu_port\": \"8889\""}
+{"timestamp":"2025-03-27 19:37:44.692","level":"info","event":"message","message":"\"max_players\": \"0\""}
+{"timestamp":"2025-03-27 19:37:44.692","level":"info","event":"message","message":"\"serve\": \"true\""}
+{"timestamp":"2025-03-27 19:37:44.692","level":"info","event":"message","message":"\"http_root\": \"www\""}
+{"timestamp":"2025-03-27 19:37:44.692","level":"info","event":"message","message":"\"homepage\": \"player.html\""}
+{"timestamp":"2025-03-27 19:37:44.692","level":"info","event":"message","message":"\"https\": \"false\""}
+{"timestamp":"2025-03-27 19:37:44.693","level":"info","event":"message","message":"\"https_port\": \"443\""}
+{"timestamp":"2025-03-27 19:37:44.693","level":"info","event":"message","message":"\"ssl_key_path\": \"certificates/client-key.pem\""}
+{"timestamp":"2025-03-27 19:37:44.693","level":"info","event":"message","message":"\"ssl_cert_path\": \"certificates/client-cert.pem\""}
+{"timestamp":"2025-03-27 19:37:44.693","level":"info","event":"message","message":"\"https_redirect\": \"true\""}
+{"timestamp":"2025-03-27 19:37:44.693","level":"info","event":"message","message":"\"rest_api\": \"false\""}
+{"timestamp":"2025-03-27 19:37:44.693","level":"info","event":"message","message":"\"peer_options\": \"\""}
+{"timestamp":"2025-03-27 19:37:44.693","level":"info","event":"message","message":"\"log_config\": \"true\""}
+{"timestamp":"2025-03-27 19:37:44.694","level":"info","event":"message","message":"\"stdin\": \"false\""}
+{"timestamp":"2025-03-27 19:37:44.694","level":"info","event":"message","message":"\"save\": \"false\""}
+{"timestamp":"2025-03-27 19:37:44.694","level":"info","event":"message","message":"\"console_messages\": \"verbose\""}
+{"timestamp":"2025-03-27 19:37:44.699","level":"info","event":"message","message":"Listening for streamer connections on port 8888"}
+{"timestamp":"2025-03-27 19:37:44.699","level":"info","event":"message","message":"Listening for SFU connections on port 8889"}
+{"timestamp":"2025-03-27 19:37:44.700","level":"info","event":"message","message":"Http server listening on port 80"}
+{"timestamp":"2025-03-27 19:38:06.815","level":"info","event":"message","message":"@epicgames-ps/wilbur v2.1.3 starting..."}
+{"timestamp":"2025-03-27 19:38:06.816","level":"info","event":"message","message":"Config:"}
+{"timestamp":"2025-03-27 19:38:06.816","level":"info","event":"message","message":"\"log_folder\": \"logs\""}
+{"timestamp":"2025-03-27 19:38:06.816","level":"info","event":"message","message":"\"log_level_console\": \"info\""}
+{"timestamp":"2025-03-27 19:38:06.817","level":"info","event":"message","message":"\"log_level_file\": \"info\""}
+{"timestamp":"2025-03-27 19:38:06.817","level":"info","event":"message","message":"\"streamer_port\": \"8888\""}
+{"timestamp":"2025-03-27 19:38:06.817","level":"info","event":"message","message":"\"player_port\": \"80\""}
+{"timestamp":"2025-03-27 19:38:06.818","level":"info","event":"message","message":"\"sfu_port\": \"8889\""}
+{"timestamp":"2025-03-27 19:38:06.818","level":"info","event":"message","message":"\"max_players\": \"0\""}
+{"timestamp":"2025-03-27 19:38:06.818","level":"info","event":"message","message":"\"serve\": \"false\""}
+{"timestamp":"2025-03-27 19:38:06.818","level":"info","event":"message","message":"\"http_root\": \"www_vite\""}
+{"timestamp":"2025-03-27 19:38:06.818","level":"info","event":"message","message":"\"homepage\": \"index.html\""}
+{"timestamp":"2025-03-27 19:38:06.819","level":"info","event":"message","message":"\"https\": \"false\""}
+{"timestamp":"2025-03-27 19:38:06.819","level":"info","event":"message","message":"\"https_port\": \"443\""}
+{"timestamp":"2025-03-27 19:38:06.819","level":"info","event":"message","message":"\"ssl_key_path\": \"certificates/client-key.pem\""}
+{"timestamp":"2025-03-27 19:38:06.819","level":"info","event":"message","message":"\"ssl_cert_path\": \"certificates/client-cert.pem\""}
+{"timestamp":"2025-03-27 19:38:06.820","level":"info","event":"message","message":"\"https_redirect\": \"true\""}
+{"timestamp":"2025-03-27 19:38:06.820","level":"info","event":"message","message":"\"rest_api\": \"false\""}
+{"timestamp":"2025-03-27 19:38:06.820","level":"info","event":"message","message":"\"peer_options\": \"\""}
+{"timestamp":"2025-03-27 19:38:06.820","level":"info","event":"message","message":"\"log_config\": \"true\""}
+{"timestamp":"2025-03-27 19:38:06.820","level":"info","event":"message","message":"\"stdin\": \"false\""}
+{"timestamp":"2025-03-27 19:38:06.821","level":"info","event":"message","message":"\"save\": \"false\""}
+{"timestamp":"2025-03-27 19:38:06.821","level":"info","event":"message","message":"\"console_messages\": \"verbose\""}
+{"timestamp":"2025-03-27 19:38:06.823","level":"info","event":"message","message":"Listening for streamer connections on port 8888"}
+{"timestamp":"2025-03-27 19:38:06.824","level":"info","event":"message","message":"Listening for player connections on port 80"}
+{"timestamp":"2025-03-27 19:38:06.824","level":"info","event":"message","message":"Listening for SFU connections on port 8889"}
+{"timestamp":"2025-03-27 19:38:30.218","level":"info","event":"message","message":"New player connection: ::1 (/)"}
+{"timestamp":"2025-03-27 19:38:30.220","level":"info","event":"message","message":"Registered new player: Player0"}
+{"timestamp":"2025-03-27 19:38:30.221","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"config","peerConnectionOptions":{},"protocolVersion":"1.3.0"}}
+{"timestamp":"2025-03-27 19:38:30.233","level":"info","event":"message","message":"Unregistered player: Player0"}
+{"timestamp":"2025-03-27 19:38:30.234","level":"info","event":"message","message":"Player Player0 (::1) disconnected."}
+{"timestamp":"2025-03-27 19:38:30.235","level":"info","event":"message","message":"New player connection: ::1 (/)"}
+{"timestamp":"2025-03-27 19:38:30.236","level":"info","event":"message","message":"Registered new player: Player1"}
+{"timestamp":"2025-03-27 19:38:30.236","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"config","peerConnectionOptions":{},"protocolVersion":"1.3.0"}}
+{"timestamp":"2025-03-27 19:38:30.308","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 19:38:30.308","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 19:38:33.584","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 19:38:33.585","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 19:38:37.271","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 19:38:37.272","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 19:38:41.280","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 19:38:41.280","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 19:39:00.273","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"ping","time":1743075540271}}
+{"timestamp":"2025-03-27 19:39:00.273","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"pong","time":1743075540271}}
+{"timestamp":"2025-03-27 19:39:30.272","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"ping","time":1743075570271}}
+{"timestamp":"2025-03-27 19:39:30.272","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"pong","time":1743075570271}}
+{"timestamp":"2025-03-27 19:40:00.275","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"ping","time":1743075600274}}
+{"timestamp":"2025-03-27 19:40:00.276","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"pong","time":1743075600274}}
+{"timestamp":"2025-03-27 19:40:30.269","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"ping","time":1743075630269}}
+{"timestamp":"2025-03-27 19:40:30.270","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"pong","time":1743075630269}}
+{"timestamp":"2025-03-27 19:41:00.269","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"ping","time":1743075660269}}
+{"timestamp":"2025-03-27 19:41:00.269","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"pong","time":1743075660269}}
+{"timestamp":"2025-03-27 19:41:30.277","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"ping","time":1743075690277}}
+{"timestamp":"2025-03-27 19:41:30.277","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"pong","time":1743075690277}}
+{"timestamp":"2025-03-27 19:42:00.274","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"ping","time":1743075720273}}
+{"timestamp":"2025-03-27 19:42:00.274","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"pong","time":1743075720273}}
+{"timestamp":"2025-03-27 19:42:30.280","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"ping","time":1743075750280}}
+{"timestamp":"2025-03-27 19:42:30.280","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"pong","time":1743075750280}}
+{"timestamp":"2025-03-27 19:43:00.270","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"ping","time":1743075780270}}
+{"timestamp":"2025-03-27 19:43:00.271","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"pong","time":1743075780270}}
+{"timestamp":"2025-03-27 19:43:30.271","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"ping","time":1743075810270}}
+{"timestamp":"2025-03-27 19:43:30.271","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"pong","time":1743075810270}}
+{"timestamp":"2025-03-27 19:44:00.268","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"ping","time":1743075840268}}
+{"timestamp":"2025-03-27 19:44:00.269","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"pong","time":1743075840268}}
+{"timestamp":"2025-03-27 19:44:30.274","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"ping","time":1743075870273}}
+{"timestamp":"2025-03-27 19:44:30.274","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"pong","time":1743075870273}}
+{"timestamp":"2025-03-27 19:45:00.278","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"ping","time":1743075900278}}
+{"timestamp":"2025-03-27 19:45:00.279","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"pong","time":1743075900278}}
+{"timestamp":"2025-03-27 19:45:30.269","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"ping","time":1743075930269}}
+{"timestamp":"2025-03-27 19:45:30.269","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"pong","time":1743075930269}}
+{"timestamp":"2025-03-27 19:46:00.273","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"ping","time":1743075960273}}
+{"timestamp":"2025-03-27 19:46:00.273","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"pong","time":1743075960273}}
+{"timestamp":"2025-03-27 19:46:30.270","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"ping","time":1743075990270}}
+{"timestamp":"2025-03-27 19:46:30.270","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"pong","time":1743075990270}}
+{"timestamp":"2025-03-27 19:47:00.273","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"ping","time":1743076020272}}
+{"timestamp":"2025-03-27 19:47:00.273","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"pong","time":1743076020272}}
+{"timestamp":"2025-03-27 19:47:30.230","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"ping","time":1743076050230}}
+{"timestamp":"2025-03-27 19:47:30.231","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"pong","time":1743076050230}}
+{"timestamp":"2025-03-27 19:47:37.470","level":"info","event":"message","message":"New streamer connection: ::ffff:127.0.0.1"}
+{"timestamp":"2025-03-27 19:47:37.471","level":"info","event":"proto_message","direction":"outgoing","sender":"UnknownStreamer","protoMessage":{"type":"identify"}}
+{"timestamp":"2025-03-27 19:47:37.471","level":"info","event":"proto_message","direction":"outgoing","sender":"UnknownStreamer","protoMessage":{"type":"config","peerConnectionOptions":{},"protocolVersion":"1.3.0"}}
+{"timestamp":"2025-03-27 19:47:38.235","level":"info","event":"proto_message","direction":"incoming","receiver":"UnknownStreamer","protoMessage":{"id":"DefaultStreamer","protocolVersion":"1.1.0","type":"endpointId"}}
+{"timestamp":"2025-03-27 19:47:38.236","level":"info","event":"proto_message","direction":"outgoing","sender":"DefaultStreamer","protoMessage":{"type":"endpointIdConfirm","committedId":"DefaultStreamer"}}
+{"timestamp":"2025-03-27 19:47:38.269","level":"info","event":"proto_message","direction":"incoming","receiver":"DefaultStreamer","protoMessage":{"type":"ping","time":1743076058}}
+{"timestamp":"2025-03-27 19:47:38.269","level":"info","event":"proto_message","direction":"outgoing","sender":"DefaultStreamer","protoMessage":{"type":"pong","time":1743076058}}
+{"timestamp":"2025-03-27 19:47:41.179","level":"info","event":"message","message":"Unregistered player: Player1"}
+{"timestamp":"2025-03-27 19:47:41.179","level":"info","event":"message","message":"Player Player1 (::1) disconnected."}
+{"timestamp":"2025-03-27 19:47:41.240","level":"info","event":"message","message":"New player connection: ::1 (/)"}
+{"timestamp":"2025-03-27 19:47:41.241","level":"info","event":"message","message":"Registered new player: Player2"}
+{"timestamp":"2025-03-27 19:47:41.241","level":"info","event":"proto_message","direction":"outgoing","sender":"Player2","protoMessage":{"type":"config","peerConnectionOptions":{},"protocolVersion":"1.3.0"}}
+{"timestamp":"2025-03-27 19:47:41.243","level":"info","event":"proto_message","direction":"incoming","receiver":"Player2","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 19:47:41.244","level":"info","event":"proto_message","direction":"outgoing","sender":"Player2","protoMessage":{"type":"streamerList","ids":["DefaultStreamer"]}}
+{"timestamp":"2025-03-27 19:47:41.248","level":"info","event":"proto_message","direction":"incoming","receiver":"Player2","protoMessage":{"type":"subscribe","streamerId":"DefaultStreamer"}}
+{"timestamp":"2025-03-27 19:47:41.249","level":"info","event":"proto_message","direction":"forward","receiver":"Player2","target":"DefaultStreamer","protoMessage":{"type":"playerConnected","dataChannel":true,"sfu":false,"playerId":"Player2"}}
+{"timestamp":"2025-03-27 19:47:41.319","level":"info","event":"proto_message","direction":"forward","receiver":"DefaultStreamer","target":"Player2","protoMessage":{"multiplex":true,"sdp":"v=0\r\no=- 2902461120009554428 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0 1 2\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS pixelstreaming_audio_stream_id pixelstreaming_video_stream_id\r\nm=video 9 UDP/TLS/RTP/SAVPF 127 97 98 99 100 101 102\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:I+94\r\na=ice-pwd:MecbeGR3ShfzdbaZyA7htko0\r\na=ice-options:trickle\r\na=fingerprint:sha-256 1B:F3:85:A0:51:E0:82:03:E0:DF:B8:95:43:51:F0:51:85:13:C8:0C:8F:20:30:F4:26:FD:30:BA:BB:62:30:8D\r\na=setup:actpass\r\na=mid:0\r\na=extmap:1 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:3 urn:3gpp:video-orientation\r\na=extmap:4 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:5 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay\r\na=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type\r\na=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-timing\r\na=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/color-space\r\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=extmap:10 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\r\na=extmap:11 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\r\na=sendrecv\r\na=msid:pixelstreaming_video_stream_id video\r\na=rtcp-mux\r\na=rtcp-rsize\r\na=rtpmap:127 H264/90000\r\na=rtcp-fb:127 goog-remb\r\na=rtcp-fb:127 transport-cc\r\na=rtcp-fb:127 ccm fir\r\na=rtcp-fb:127 nack\r\na=rtcp-fb:127 nack pli\r\na=fmtp:127 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\r\na=rtpmap:97 rtx/90000\r\na=fmtp:97 apt=127\r\na=rtpmap:98 H264/90000\r\na=rtcp-fb:98 goog-remb\r\na=rtcp-fb:98 transport-cc\r\na=rtcp-fb:98 ccm fir\r\na=rtcp-fb:98 nack\r\na=rtcp-fb:98 nack pli\r\na=fmtp:98 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f\r\na=rtpmap:99 rtx/90000\r\na=fmtp:99 apt=98\r\na=rtpmap:100 red/90000\r\na=rtpmap:101 rtx/90000\r\na=fmtp:101 apt=100\r\na=rtpmap:102 ulpfec/90000\r\na=ssrc-group:FID 922484523 1405745783\r\na=ssrc:922484523 cname:KyzrC43bq+kyNu5J\r\na=ssrc:922484523 msid:pixelstreaming_video_stream_id video\r\na=ssrc:1405745783 cname:KyzrC43bq+kyNu5J\r\na=ssrc:1405745783 msid:pixelstreaming_video_stream_id video\r\nm=audio 9 UDP/TLS/RTP/SAVPF 96 110\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:I+94\r\na=ice-pwd:MecbeGR3ShfzdbaZyA7htko0\r\na=ice-options:trickle\r\na=fingerprint:sha-256 1B:F3:85:A0:51:E0:82:03:E0:DF:B8:95:43:51:F0:51:85:13:C8:0C:8F:20:30:F4:26:FD:30:BA:BB:62:30:8D\r\na=setup:actpass\r\na=mid:1\r\na=extmap:14 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:4 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=sendrecv\r\na=msid:pixelstreaming_audio_stream_id audio\r\na=rtcp-mux\r\na=rtpmap:96 OPUS/48000/2\r\na=rtcp-fb:96 transport-cc\r\na=rtpmap:110 telephone-event/48000\r\na=ssrc:344445332 cname:KyzrC43bq+kyNu5J\r\na=ssrc:344445332 msid:pixelstreaming_audio_stream_id audio\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:I+94\r\na=ice-pwd:MecbeGR3ShfzdbaZyA7htko0\r\na=ice-options:trickle\r\na=fingerprint:sha-256 1B:F3:85:A0:51:E0:82:03:E0:DF:B8:95:43:51:F0:51:85:13:C8:0C:8F:20:30:F4:26:FD:30:BA:BB:62:30:8D\r\na=setup:actpass\r\na=mid:2\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","type":"offer","scalabilityMode":"L1T1"}}
+{"timestamp":"2025-03-27 19:47:41.321","level":"info","event":"proto_message","direction":"forward","receiver":"Player2","target":"DefaultStreamer","protoMessage":{"type":"layerPreference","spatialLayer":0,"temporalLayer":0,"playerId":"Player2"}}
+{"timestamp":"2025-03-27 19:47:41.352","level":"info","event":"proto_message","direction":"forward","receiver":"DefaultStreamer","target":"Player2","protoMessage":{"candidate":{"candidate":"candidate:2952115545 1 udp 2122260223 172.31.176.1 49152 typ host generation 0 ufrag I+94 network-id 6","sdpMLineIndex":0,"sdpMid":"0"},"type":"iceCandidate"}}
+{"timestamp":"2025-03-27 19:47:41.386","level":"info","event":"proto_message","direction":"forward","receiver":"DefaultStreamer","target":"Player2","protoMessage":{"candidate":{"candidate":"candidate:3323855126 1 udp 2122197247 2408:8207:4843:2560:39e3:352:159d:f8a6 49152 typ host generation 0 ufrag I+94 network-id 2 network-cost 10","sdpMLineIndex":0,"sdpMid":"0"},"type":"iceCandidate"}}
+{"timestamp":"2025-03-27 19:47:41.419","level":"info","event":"proto_message","direction":"forward","receiver":"DefaultStreamer","target":"Player2","protoMessage":{"candidate":{"candidate":"candidate:4168324279 1 udp 2122131711 2408:8207:4843:2560:c969:9611:272f:ac6b 49152 typ host generation 0 ufrag I+94 network-id 3 network-cost 10","sdpMLineIndex":0,"sdpMid":"0"},"type":"iceCandidate"}}
+{"timestamp":"2025-03-27 19:47:41.452","level":"info","event":"proto_message","direction":"forward","receiver":"DefaultStreamer","target":"Player2","protoMessage":{"candidate":{"candidate":"candidate:2773509013 1 udp 2122063615 192.168.1.3 49152 typ host generation 0 ufrag I+94 network-id 1 network-cost 10","sdpMLineIndex":0,"sdpMid":"0"},"type":"iceCandidate"}}
+{"timestamp":"2025-03-27 19:47:41.465","level":"info","event":"proto_message","direction":"forward","receiver":"Player2","target":"DefaultStreamer","protoMessage":{"type":"answer","sdp":"v=0\r\no=- 8648874112072739556 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0 1 2\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=video 9 UDP/TLS/RTP/SAVPF 98 99 127 97 100 101 102\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:dbMO\r\na=ice-pwd:SHJXq6Uy7RQXgj0Obljd0q/H\r\na=ice-options:trickle\r\na=fingerprint:sha-256 55:39:EE:84:F0:2A:09:3F:B4:69:BA:47:8B:DA:AB:81:67:29:80:18:A6:57:E2:FE:0D:9D:38:0B:0C:02:8D:E0\r\na=setup:active\r\na=mid:0\r\na=extmap:1 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:3 urn:3gpp:video-orientation\r\na=extmap:4 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:5 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay\r\na=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type\r\na=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-timing\r\na=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/color-space\r\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=extmap:10 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\r\na=extmap:11 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\r\na=recvonly\r\na=rtcp-mux\r\na=rtcp-rsize\r\na=rtpmap:98 H264/90000\r\na=rtcp-fb:98 goog-remb\r\na=rtcp-fb:98 transport-cc\r\na=rtcp-fb:98 ccm fir\r\na=rtcp-fb:98 nack\r\na=rtcp-fb:98 nack pli\r\na=fmtp:98 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f;x-google-max-bitrate=100000;x-google-start-bitrate=10000\r\na=rtpmap:99 rtx/90000\r\na=fmtp:99 apt=98\r\na=rtpmap:127 H264/90000\r\na=rtcp-fb:127 goog-remb\r\na=rtcp-fb:127 transport-cc\r\na=rtcp-fb:127 ccm fir\r\na=rtcp-fb:127 nack\r\na=rtcp-fb:127 nack pli\r\na=fmtp:127 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f;x-google-max-bitrate=100000;x-google-start-bitrate=10000\r\na=rtpmap:97 rtx/90000\r\na=fmtp:97 apt=127\r\na=rtpmap:100 red/90000\r\na=rtpmap:101 rtx/90000\r\na=fmtp:101 apt=100\r\na=rtpmap:102 ulpfec/90000\r\nm=audio 9 UDP/TLS/RTP/SAVPF 96 110\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:dbMO\r\na=ice-pwd:SHJXq6Uy7RQXgj0Obljd0q/H\r\na=ice-options:trickle\r\na=fingerprint:sha-256 55:39:EE:84:F0:2A:09:3F:B4:69:BA:47:8B:DA:AB:81:67:29:80:18:A6:57:E2:FE:0D:9D:38:0B:0C:02:8D:E0\r\na=setup:active\r\na=mid:1\r\na=extmap:14 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:4 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=recvonly\r\na=rtcp-mux\r\na=rtpmap:96 OPUS/48000/2\r\na=rtcp-fb:96 transport-cc\r\na=fmtp:96 maxaveragebitrate=510000;minptime=10;stereo=1;useinbandfec=1\r\na=rtpmap:110 telephone-event/48000\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:dbMO\r\na=ice-pwd:SHJXq6Uy7RQXgj0Obljd0q/H\r\na=ice-options:trickle\r\na=fingerprint:sha-256 55:39:EE:84:F0:2A:09:3F:B4:69:BA:47:8B:DA:AB:81:67:29:80:18:A6:57:E2:FE:0D:9D:38:0B:0C:02:8D:E0\r\na=setup:active\r\na=mid:2\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","minBitrateBps":0,"maxBitrateBps":0,"playerId":"Player2"}}
+{"timestamp":"2025-03-27 19:47:41.468","level":"info","event":"proto_message","direction":"forward","receiver":"Player2","target":"DefaultStreamer","protoMessage":{"type":"iceCandidate","candidate":{"candidate":"candidate:353224945 1 udp 2113937151 841e722e-dfbd-4d43-96a3-256e94564526.local 53001 typ host generation 0 ufrag dbMO network-cost 999","sdpMid":"0","sdpMLineIndex":0,"usernameFragment":"dbMO"},"playerId":"Player2"}}
+{"timestamp":"2025-03-27 19:47:41.469","level":"info","event":"proto_message","direction":"forward","receiver":"Player2","target":"DefaultStreamer","protoMessage":{"type":"iceCandidate","candidate":{"candidate":"candidate:1176190114 1 udp 2113939711 32ff87a8-7f87-4854-8fe1-899072a19c70.local 53002 typ host generation 0 ufrag dbMO network-cost 999","sdpMid":"0","sdpMLineIndex":0,"usernameFragment":"dbMO"},"playerId":"Player2"}}
+{"timestamp":"2025-03-27 19:47:41.486","level":"info","event":"proto_message","direction":"forward","receiver":"DefaultStreamer","target":"Player2","protoMessage":{"candidate":{"candidate":"candidate:2952115545 1 udp 2122260223 172.31.176.1 49153 typ host generation 0 ufrag I+94 network-id 6","sdpMLineIndex":1,"sdpMid":"1"},"type":"iceCandidate"}}
+{"timestamp":"2025-03-27 19:47:41.520","level":"info","event":"proto_message","direction":"forward","receiver":"DefaultStreamer","target":"Player2","protoMessage":{"candidate":{"candidate":"candidate:3323855126 1 udp 2122197247 2408:8207:4843:2560:39e3:352:159d:f8a6 49153 typ host generation 0 ufrag I+94 network-id 2 network-cost 10","sdpMLineIndex":1,"sdpMid":"1"},"type":"iceCandidate"}}
+{"timestamp":"2025-03-27 19:47:41.553","level":"info","event":"proto_message","direction":"forward","receiver":"DefaultStreamer","target":"Player2","protoMessage":{"candidate":{"candidate":"candidate:4168324279 1 udp 2122131711 2408:8207:4843:2560:c969:9611:272f:ac6b 49153 typ host generation 0 ufrag I+94 network-id 3 network-cost 10","sdpMLineIndex":1,"sdpMid":"1"},"type":"iceCandidate"}}
+{"timestamp":"2025-03-27 19:47:41.587","level":"info","event":"proto_message","direction":"forward","receiver":"DefaultStreamer","target":"Player2","protoMessage":{"candidate":{"candidate":"candidate:2773509013 1 udp 2122063615 192.168.1.3 49153 typ host generation 0 ufrag I+94 network-id 1 network-cost 10","sdpMLineIndex":1,"sdpMid":"1"},"type":"iceCandidate"}}
+{"timestamp":"2025-03-27 19:47:41.620","level":"info","event":"proto_message","direction":"forward","receiver":"DefaultStreamer","target":"Player2","protoMessage":{"candidate":{"candidate":"candidate:2952115545 1 udp 2122260223 172.31.176.1 49154 typ host generation 0 ufrag I+94 network-id 6","sdpMLineIndex":2,"sdpMid":"2"},"type":"iceCandidate"}}
+{"timestamp":"2025-03-27 19:47:41.654","level":"info","event":"proto_message","direction":"forward","receiver":"DefaultStreamer","target":"Player2","protoMessage":{"candidate":{"candidate":"candidate:3323855126 1 udp 2122197247 2408:8207:4843:2560:39e3:352:159d:f8a6 49154 typ host generation 0 ufrag I+94 network-id 2 network-cost 10","sdpMLineIndex":2,"sdpMid":"2"},"type":"iceCandidate"}}
+{"timestamp":"2025-03-27 19:47:41.687","level":"info","event":"proto_message","direction":"forward","receiver":"DefaultStreamer","target":"Player2","protoMessage":{"candidate":{"candidate":"candidate:4168324279 1 udp 2122131711 2408:8207:4843:2560:c969:9611:272f:ac6b 49154 typ host generation 0 ufrag I+94 network-id 3 network-cost 10","sdpMLineIndex":2,"sdpMid":"2"},"type":"iceCandidate"}}
+{"timestamp":"2025-03-27 19:47:41.721","level":"info","event":"proto_message","direction":"forward","receiver":"DefaultStreamer","target":"Player2","protoMessage":{"candidate":{"candidate":"candidate:2773509013 1 udp 2122063615 192.168.1.3 49154 typ host generation 0 ufrag I+94 network-id 1 network-cost 10","sdpMLineIndex":2,"sdpMid":"2"},"type":"iceCandidate"}}
+{"timestamp":"2025-03-27 19:47:41.754","level":"info","event":"proto_message","direction":"forward","receiver":"DefaultStreamer","target":"Player2","protoMessage":{"candidate":{"candidate":"candidate:3510261697 1 tcp 1518280447 172.31.176.1 49152 typ host tcptype passive generation 0 ufrag I+94 network-id 6","sdpMLineIndex":0,"sdpMid":"0"},"type":"iceCandidate"}}
+{"timestamp":"2025-03-27 19:47:41.788","level":"info","event":"proto_message","direction":"forward","receiver":"DefaultStreamer","target":"Player2","protoMessage":{"candidate":{"candidate":"candidate:3100763022 1 tcp 1518217471 2408:8207:4843:2560:39e3:352:159d:f8a6 49152 typ host tcptype passive generation 0 ufrag I+94 network-id 2 network-cost 10","sdpMLineIndex":0,"sdpMid":"0"},"type":"iceCandidate"}}
+{"timestamp":"2025-03-27 19:47:41.822","level":"info","event":"proto_message","direction":"forward","receiver":"DefaultStreamer","target":"Player2","protoMessage":{"candidate":{"candidate":"candidate:2260497967 1 tcp 1518151935 2408:8207:4843:2560:c969:9611:272f:ac6b 49152 typ host tcptype passive generation 0 ufrag I+94 network-id 3 network-cost 10","sdpMLineIndex":0,"sdpMid":"0"},"type":"iceCandidate"}}
+{"timestamp":"2025-03-27 19:47:41.855","level":"info","event":"proto_message","direction":"forward","receiver":"DefaultStreamer","target":"Player2","protoMessage":{"candidate":{"candidate":"candidate:3684663565 1 tcp 1518083839 192.168.1.3 49152 typ host tcptype passive generation 0 ufrag I+94 network-id 1 network-cost 10","sdpMLineIndex":0,"sdpMid":"0"},"type":"iceCandidate"}}
+{"timestamp":"2025-03-27 19:47:41.889","level":"info","event":"proto_message","direction":"forward","receiver":"DefaultStreamer","target":"Player2","protoMessage":{"candidate":{"candidate":"candidate:3510261697 1 tcp 1518280447 172.31.176.1 49153 typ host tcptype passive generation 0 ufrag I+94 network-id 6","sdpMLineIndex":1,"sdpMid":"1"},"type":"iceCandidate"}}
+{"timestamp":"2025-03-27 19:47:41.923","level":"info","event":"proto_message","direction":"forward","receiver":"DefaultStreamer","target":"Player2","protoMessage":{"candidate":{"candidate":"candidate:3100763022 1 tcp 1518217471 2408:8207:4843:2560:39e3:352:159d:f8a6 49153 typ host tcptype passive generation 0 ufrag I+94 network-id 2 network-cost 10","sdpMLineIndex":1,"sdpMid":"1"},"type":"iceCandidate"}}
+{"timestamp":"2025-03-27 19:47:41.957","level":"info","event":"proto_message","direction":"forward","receiver":"DefaultStreamer","target":"Player2","protoMessage":{"candidate":{"candidate":"candidate:2260497967 1 tcp 1518151935 2408:8207:4843:2560:c969:9611:272f:ac6b 49153 typ host tcptype passive generation 0 ufrag I+94 network-id 3 network-cost 10","sdpMLineIndex":1,"sdpMid":"1"},"type":"iceCandidate"}}
+{"timestamp":"2025-03-27 19:47:41.990","level":"info","event":"proto_message","direction":"forward","receiver":"DefaultStreamer","target":"Player2","protoMessage":{"candidate":{"candidate":"candidate:3684663565 1 tcp 1518083839 192.168.1.3 49153 typ host tcptype passive generation 0 ufrag I+94 network-id 1 network-cost 10","sdpMLineIndex":1,"sdpMid":"1"},"type":"iceCandidate"}}
+{"timestamp":"2025-03-27 19:47:42.024","level":"info","event":"proto_message","direction":"forward","receiver":"DefaultStreamer","target":"Player2","protoMessage":{"candidate":{"candidate":"candidate:3510261697 1 tcp 1518280447 172.31.176.1 49154 typ host tcptype passive generation 0 ufrag I+94 network-id 6","sdpMLineIndex":2,"sdpMid":"2"},"type":"iceCandidate"}}
+{"timestamp":"2025-03-27 19:47:42.058","level":"info","event":"proto_message","direction":"forward","receiver":"DefaultStreamer","target":"Player2","protoMessage":{"candidate":{"candidate":"candidate:3100763022 1 tcp 1518217471 2408:8207:4843:2560:39e3:352:159d:f8a6 49154 typ host tcptype passive generation 0 ufrag I+94 network-id 2 network-cost 10","sdpMLineIndex":2,"sdpMid":"2"},"type":"iceCandidate"}}
+{"timestamp":"2025-03-27 19:47:42.092","level":"info","event":"proto_message","direction":"forward","receiver":"DefaultStreamer","target":"Player2","protoMessage":{"candidate":{"candidate":"candidate:2260497967 1 tcp 1518151935 2408:8207:4843:2560:c969:9611:272f:ac6b 49154 typ host tcptype passive generation 0 ufrag I+94 network-id 3 network-cost 10","sdpMLineIndex":2,"sdpMid":"2"},"type":"iceCandidate"}}
+{"timestamp":"2025-03-27 19:47:42.125","level":"info","event":"proto_message","direction":"forward","receiver":"DefaultStreamer","target":"Player2","protoMessage":{"candidate":{"candidate":"candidate:3684663565 1 tcp 1518083839 192.168.1.3 49154 typ host tcptype passive generation 0 ufrag I+94 network-id 1 network-cost 10","sdpMLineIndex":2,"sdpMid":"2"},"type":"iceCandidate"}}
+{"timestamp":"2025-03-27 19:48:08.231","level":"info","event":"proto_message","direction":"incoming","receiver":"DefaultStreamer","protoMessage":{"type":"ping","time":1743076088}}
+{"timestamp":"2025-03-27 19:48:08.231","level":"info","event":"proto_message","direction":"outgoing","sender":"DefaultStreamer","protoMessage":{"type":"pong","time":1743076088}}
+{"timestamp":"2025-03-27 19:48:08.382","level":"info","event":"proto_message","direction":"forward","receiver":"Player2","target":"DefaultStreamer","protoMessage":{"type":"playerDisconnected","playerId":"Player2"}}
+{"timestamp":"2025-03-27 19:48:08.383","level":"info","event":"message","message":"Unregistered player: Player2"}
+{"timestamp":"2025-03-27 19:48:08.383","level":"info","event":"message","message":"Player Player2 (::1) disconnected."}
+{"timestamp":"2025-03-27 19:48:38.331","level":"info","event":"proto_message","direction":"incoming","receiver":"DefaultStreamer","protoMessage":{"type":"ping","time":1743076118}}
+{"timestamp":"2025-03-27 19:48:38.331","level":"info","event":"proto_message","direction":"outgoing","sender":"DefaultStreamer","protoMessage":{"type":"pong","time":1743076118}}
+{"timestamp":"2025-03-27 19:48:52.914","level":"info","event":"message","message":"Streamer 'DefaultStreamer' - websocket disconnected."}
+{"timestamp":"2025-03-27 19:48:52.915","level":"info","event":"message","message":"Streamer DefaultStreamer (::ffff:127.0.0.1) disconnected."}
+{"timestamp":"2025-03-27 19:56:27.258","level":"info","event":"message","message":"New player connection: ::1 (/)"}
+{"timestamp":"2025-03-27 19:56:27.258","level":"info","event":"message","message":"Registered new player: Player3"}
+{"timestamp":"2025-03-27 19:56:27.258","level":"info","event":"proto_message","direction":"outgoing","sender":"Player3","protoMessage":{"type":"config","peerConnectionOptions":{},"protocolVersion":"1.3.0"}}
+{"timestamp":"2025-03-27 19:56:27.260","level":"info","event":"message","message":"Unregistered player: Player3"}
+{"timestamp":"2025-03-27 19:56:27.260","level":"info","event":"message","message":"Player Player3 (::1) disconnected."}
+{"timestamp":"2025-03-27 19:56:27.269","level":"info","event":"message","message":"New player connection: ::1 (/)"}
+{"timestamp":"2025-03-27 19:56:27.270","level":"info","event":"message","message":"Registered new player: Player4"}
+{"timestamp":"2025-03-27 19:56:27.270","level":"info","event":"proto_message","direction":"outgoing","sender":"Player4","protoMessage":{"type":"config","peerConnectionOptions":{},"protocolVersion":"1.3.0"}}
+{"timestamp":"2025-03-27 19:56:27.307","level":"info","event":"proto_message","direction":"incoming","receiver":"Player4","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 19:56:27.307","level":"info","event":"proto_message","direction":"outgoing","sender":"Player4","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 19:56:30.329","level":"info","event":"proto_message","direction":"incoming","receiver":"Player4","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 19:56:30.329","level":"info","event":"proto_message","direction":"outgoing","sender":"Player4","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 19:56:33.331","level":"info","event":"proto_message","direction":"incoming","receiver":"Player4","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 19:56:33.331","level":"info","event":"proto_message","direction":"outgoing","sender":"Player4","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 19:56:36.346","level":"info","event":"proto_message","direction":"incoming","receiver":"Player4","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 19:56:36.346","level":"info","event":"proto_message","direction":"outgoing","sender":"Player4","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 19:56:51.688","level":"info","event":"message","message":"Unregistered player: Player4"}
+{"timestamp":"2025-03-27 19:56:51.689","level":"info","event":"message","message":"Player Player4 (::1) disconnected."}
+{"timestamp":"2025-03-27 19:56:51.793","level":"info","event":"message","message":"New player connection: ::1 (/)"}
+{"timestamp":"2025-03-27 19:56:51.793","level":"info","event":"message","message":"Registered new player: Player5"}
+{"timestamp":"2025-03-27 19:56:51.794","level":"info","event":"proto_message","direction":"outgoing","sender":"Player5","protoMessage":{"type":"config","peerConnectionOptions":{},"protocolVersion":"1.3.0"}}
+{"timestamp":"2025-03-27 19:56:51.840","level":"info","event":"proto_message","direction":"incoming","receiver":"Player5","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 19:56:51.840","level":"info","event":"proto_message","direction":"outgoing","sender":"Player5","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 19:56:54.860","level":"info","event":"proto_message","direction":"incoming","receiver":"Player5","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 19:56:54.860","level":"info","event":"proto_message","direction":"outgoing","sender":"Player5","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 19:56:57.862","level":"info","event":"proto_message","direction":"incoming","receiver":"Player5","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 19:56:57.863","level":"info","event":"proto_message","direction":"outgoing","sender":"Player5","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 19:57:00.875","level":"info","event":"proto_message","direction":"incoming","receiver":"Player5","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 19:57:00.875","level":"info","event":"proto_message","direction":"outgoing","sender":"Player5","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 19:57:15.985","level":"info","event":"message","message":"Unregistered player: Player5"}
+{"timestamp":"2025-03-27 19:57:15.985","level":"info","event":"message","message":"Player Player5 (::1) disconnected."}
+{"timestamp":"2025-03-27 20:02:24.938","level":"info","event":"message","message":"New player connection: ::1 (/)"}
+{"timestamp":"2025-03-27 20:02:24.939","level":"info","event":"message","message":"Registered new player: Player6"}
+{"timestamp":"2025-03-27 20:02:24.939","level":"info","event":"proto_message","direction":"outgoing","sender":"Player6","protoMessage":{"type":"config","peerConnectionOptions":{},"protocolVersion":"1.3.0"}}
+{"timestamp":"2025-03-27 20:02:24.952","level":"info","event":"message","message":"Unregistered player: Player6"}
+{"timestamp":"2025-03-27 20:02:24.952","level":"info","event":"message","message":"Player Player6 (::1) disconnected."}
+{"timestamp":"2025-03-27 20:02:24.953","level":"info","event":"message","message":"New player connection: ::1 (/)"}
+{"timestamp":"2025-03-27 20:02:24.953","level":"info","event":"message","message":"Registered new player: Player7"}
+{"timestamp":"2025-03-27 20:02:24.953","level":"info","event":"proto_message","direction":"outgoing","sender":"Player7","protoMessage":{"type":"config","peerConnectionOptions":{},"protocolVersion":"1.3.0"}}
+{"timestamp":"2025-03-27 20:02:25.021","level":"info","event":"proto_message","direction":"incoming","receiver":"Player7","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 20:02:25.022","level":"info","event":"proto_message","direction":"outgoing","sender":"Player7","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 20:02:28.042","level":"info","event":"proto_message","direction":"incoming","receiver":"Player7","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 20:02:28.042","level":"info","event":"proto_message","direction":"outgoing","sender":"Player7","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 20:02:31.053","level":"info","event":"proto_message","direction":"incoming","receiver":"Player7","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 20:02:31.053","level":"info","event":"proto_message","direction":"outgoing","sender":"Player7","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 20:02:34.066","level":"info","event":"proto_message","direction":"incoming","receiver":"Player7","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 20:02:34.066","level":"info","event":"proto_message","direction":"outgoing","sender":"Player7","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 20:02:45.446","level":"info","event":"message","message":"Unregistered player: Player7"}
+{"timestamp":"2025-03-27 20:02:45.446","level":"info","event":"message","message":"Player Player7 (::1) disconnected."}
+{"timestamp":"2025-03-27 20:02:45.546","level":"info","event":"message","message":"New player connection: ::1 (/)"}
+{"timestamp":"2025-03-27 20:02:45.546","level":"info","event":"message","message":"Registered new player: Player8"}
+{"timestamp":"2025-03-27 20:02:45.546","level":"info","event":"proto_message","direction":"outgoing","sender":"Player8","protoMessage":{"type":"config","peerConnectionOptions":{},"protocolVersion":"1.3.0"}}
+{"timestamp":"2025-03-27 20:02:45.588","level":"info","event":"proto_message","direction":"incoming","receiver":"Player8","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 20:02:45.588","level":"info","event":"proto_message","direction":"outgoing","sender":"Player8","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 20:02:48.777","level":"info","event":"proto_message","direction":"incoming","receiver":"Player8","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 20:02:48.778","level":"info","event":"proto_message","direction":"outgoing","sender":"Player8","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 20:02:52.274","level":"info","event":"proto_message","direction":"incoming","receiver":"Player8","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 20:02:52.274","level":"info","event":"proto_message","direction":"outgoing","sender":"Player8","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 20:02:55.768","level":"info","event":"proto_message","direction":"incoming","receiver":"Player8","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 20:02:55.768","level":"info","event":"proto_message","direction":"outgoing","sender":"Player8","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 20:02:57.972","level":"info","event":"message","message":"Unregistered player: Player8"}
+{"timestamp":"2025-03-27 20:02:57.973","level":"info","event":"message","message":"Player Player8 (::1) disconnected."}
+{"timestamp":"2025-03-27 20:02:58.099","level":"info","event":"message","message":"New player connection: ::1 (/)"}
+{"timestamp":"2025-03-27 20:02:58.100","level":"info","event":"message","message":"Registered new player: Player9"}
+{"timestamp":"2025-03-27 20:02:58.100","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"config","peerConnectionOptions":{},"protocolVersion":"1.3.0"}}
+{"timestamp":"2025-03-27 20:02:58.172","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 20:02:58.172","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 20:03:01.201","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 20:03:01.201","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 20:03:04.208","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 20:03:04.208","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 20:03:07.277","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 20:03:07.277","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 20:03:28.272","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077008272}}
+{"timestamp":"2025-03-27 20:03:28.272","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077008272}}
+{"timestamp":"2025-03-27 20:03:58.277","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077038277}}
+{"timestamp":"2025-03-27 20:03:58.277","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077038277}}
+{"timestamp":"2025-03-27 20:04:28.274","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077068274}}
+{"timestamp":"2025-03-27 20:04:28.274","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077068274}}
+{"timestamp":"2025-03-27 20:04:58.279","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077098279}}
+{"timestamp":"2025-03-27 20:04:58.280","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077098279}}
+{"timestamp":"2025-03-27 20:05:28.280","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077128280}}
+{"timestamp":"2025-03-27 20:05:28.280","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077128280}}
+{"timestamp":"2025-03-27 20:05:58.276","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077158276}}
+{"timestamp":"2025-03-27 20:05:58.277","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077158276}}
+{"timestamp":"2025-03-27 20:06:28.274","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077188274}}
+{"timestamp":"2025-03-27 20:06:28.274","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077188274}}
+{"timestamp":"2025-03-27 20:06:58.279","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077218279}}
+{"timestamp":"2025-03-27 20:06:58.280","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077218279}}
+{"timestamp":"2025-03-27 20:07:28.270","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077248270}}
+{"timestamp":"2025-03-27 20:07:28.270","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077248270}}
+{"timestamp":"2025-03-27 20:07:58.108","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077278108}}
+{"timestamp":"2025-03-27 20:07:58.108","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077278108}}
+{"timestamp":"2025-03-27 20:08:28.273","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077308273}}
+{"timestamp":"2025-03-27 20:08:28.273","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077308273}}
+{"timestamp":"2025-03-27 20:08:58.286","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077338282}}
+{"timestamp":"2025-03-27 20:08:58.286","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077338282}}
+{"timestamp":"2025-03-27 20:09:28.269","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077368269}}
+{"timestamp":"2025-03-27 20:09:28.269","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077368269}}
+{"timestamp":"2025-03-27 20:09:58.273","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077398273}}
+{"timestamp":"2025-03-27 20:09:58.273","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077398273}}
+{"timestamp":"2025-03-27 20:10:28.281","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077428281}}
+{"timestamp":"2025-03-27 20:10:28.281","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077428281}}
+{"timestamp":"2025-03-27 20:10:58.282","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077458281}}
+{"timestamp":"2025-03-27 20:10:58.282","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077458281}}
+{"timestamp":"2025-03-27 20:11:28.267","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077488267}}
+{"timestamp":"2025-03-27 20:11:28.267","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077488267}}
+{"timestamp":"2025-03-27 20:11:58.281","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077518280}}
+{"timestamp":"2025-03-27 20:11:58.281","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077518280}}
+{"timestamp":"2025-03-27 20:12:28.267","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077548267}}
+{"timestamp":"2025-03-27 20:12:28.268","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077548267}}
+{"timestamp":"2025-03-27 20:12:58.280","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077578279}}
+{"timestamp":"2025-03-27 20:12:58.280","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077578279}}
+{"timestamp":"2025-03-27 20:13:28.273","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077608272}}
+{"timestamp":"2025-03-27 20:13:28.274","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077608272}}
+{"timestamp":"2025-03-27 20:13:58.275","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077638275}}
+{"timestamp":"2025-03-27 20:13:58.276","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077638275}}
+{"timestamp":"2025-03-27 20:14:28.268","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077668268}}
+{"timestamp":"2025-03-27 20:14:28.268","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077668268}}
+{"timestamp":"2025-03-27 20:14:58.276","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077698276}}
+{"timestamp":"2025-03-27 20:14:58.276","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077698276}}
+{"timestamp":"2025-03-27 20:15:28.269","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077728270}}
+{"timestamp":"2025-03-27 20:15:28.270","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077728270}}
+{"timestamp":"2025-03-27 20:15:58.102","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077758097}}
+{"timestamp":"2025-03-27 20:15:58.103","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077758097}}
+{"timestamp":"2025-03-27 20:16:28.104","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077788104}}
+{"timestamp":"2025-03-27 20:16:28.105","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077788104}}
+{"timestamp":"2025-03-27 20:16:58.098","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077818098}}
+{"timestamp":"2025-03-27 20:16:58.099","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077818098}}
+{"timestamp":"2025-03-27 20:17:28.111","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077848105}}
+{"timestamp":"2025-03-27 20:17:28.112","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077848105}}
+{"timestamp":"2025-03-27 20:17:58.097","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077878097}}
+{"timestamp":"2025-03-27 20:17:58.097","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077878097}}
+{"timestamp":"2025-03-27 20:18:28.108","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077908108}}
+{"timestamp":"2025-03-27 20:18:28.108","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077908108}}
+{"timestamp":"2025-03-27 20:18:58.101","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077938100}}
+{"timestamp":"2025-03-27 20:18:58.101","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077938100}}
+{"timestamp":"2025-03-27 20:19:28.113","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077968107}}
+{"timestamp":"2025-03-27 20:19:28.113","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077968107}}
+{"timestamp":"2025-03-27 20:19:58.107","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743077998106}}
+{"timestamp":"2025-03-27 20:19:58.107","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743077998106}}
+{"timestamp":"2025-03-27 20:20:28.106","level":"info","event":"proto_message","direction":"incoming","receiver":"Player9","protoMessage":{"type":"ping","time":1743078028105}}
+{"timestamp":"2025-03-27 20:20:28.106","level":"info","event":"proto_message","direction":"outgoing","sender":"Player9","protoMessage":{"type":"pong","time":1743078028105}}
+{"timestamp":"2025-03-27 20:20:41.539","level":"info","event":"message","message":"Unregistered player: Player9"}
+{"timestamp":"2025-03-27 20:20:41.539","level":"info","event":"message","message":"Player Player9 (::1) disconnected."}
+{"timestamp":"2025-03-27 20:20:41.680","level":"info","event":"message","message":"New player connection: ::1 (/)"}
+{"timestamp":"2025-03-27 20:20:41.680","level":"info","event":"message","message":"Registered new player: Player10"}
+{"timestamp":"2025-03-27 20:20:41.680","level":"info","event":"proto_message","direction":"outgoing","sender":"Player10","protoMessage":{"type":"config","peerConnectionOptions":{},"protocolVersion":"1.3.0"}}
+{"timestamp":"2025-03-27 20:20:41.767","level":"info","event":"proto_message","direction":"incoming","receiver":"Player10","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 20:20:41.767","level":"info","event":"proto_message","direction":"outgoing","sender":"Player10","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 20:20:44.804","level":"info","event":"proto_message","direction":"incoming","receiver":"Player10","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 20:20:44.804","level":"info","event":"proto_message","direction":"outgoing","sender":"Player10","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 20:20:47.807","level":"info","event":"proto_message","direction":"incoming","receiver":"Player10","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 20:20:47.807","level":"info","event":"proto_message","direction":"outgoing","sender":"Player10","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 20:20:51.271","level":"info","event":"proto_message","direction":"incoming","receiver":"Player10","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 20:20:51.271","level":"info","event":"proto_message","direction":"outgoing","sender":"Player10","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 20:21:12.279","level":"info","event":"proto_message","direction":"incoming","receiver":"Player10","protoMessage":{"type":"ping","time":1743078072280}}
+{"timestamp":"2025-03-27 20:21:12.280","level":"info","event":"proto_message","direction":"outgoing","sender":"Player10","protoMessage":{"type":"pong","time":1743078072280}}
+{"timestamp":"2025-03-27 20:21:21.901","level":"info","event":"message","message":"@epicgames-ps/wilbur v2.1.3 starting..."}
+{"timestamp":"2025-03-27 20:21:21.901","level":"info","event":"message","message":"Config:"}
+{"timestamp":"2025-03-27 20:21:21.901","level":"info","event":"message","message":"\"log_folder\": \"logs\""}
+{"timestamp":"2025-03-27 20:21:21.902","level":"info","event":"message","message":"\"log_level_console\": \"info\""}
+{"timestamp":"2025-03-27 20:21:21.902","level":"info","event":"message","message":"\"log_level_file\": \"info\""}
+{"timestamp":"2025-03-27 20:21:21.902","level":"info","event":"message","message":"\"streamer_port\": \"8888\""}
+{"timestamp":"2025-03-27 20:21:21.902","level":"info","event":"message","message":"\"player_port\": \"80\""}
+{"timestamp":"2025-03-27 20:21:21.902","level":"info","event":"message","message":"\"sfu_port\": \"8889\""}
+{"timestamp":"2025-03-27 20:21:21.903","level":"info","event":"message","message":"\"max_players\": \"0\""}
+{"timestamp":"2025-03-27 20:21:21.903","level":"info","event":"message","message":"\"serve\": \"false\""}
+{"timestamp":"2025-03-27 20:21:21.903","level":"info","event":"message","message":"\"http_root\": \"www_vite\""}
+{"timestamp":"2025-03-27 20:21:21.903","level":"info","event":"message","message":"\"homepage\": \"index.html\""}
+{"timestamp":"2025-03-27 20:21:21.904","level":"info","event":"message","message":"\"https\": \"false\""}
+{"timestamp":"2025-03-27 20:21:21.904","level":"info","event":"message","message":"\"https_port\": \"443\""}
+{"timestamp":"2025-03-27 20:21:21.904","level":"info","event":"message","message":"\"ssl_key_path\": \"certificates/client-key.pem\""}
+{"timestamp":"2025-03-27 20:21:21.904","level":"info","event":"message","message":"\"ssl_cert_path\": \"certificates/client-cert.pem\""}
+{"timestamp":"2025-03-27 20:21:21.905","level":"info","event":"message","message":"\"https_redirect\": \"true\""}
+{"timestamp":"2025-03-27 20:21:21.905","level":"info","event":"message","message":"\"rest_api\": \"false\""}
+{"timestamp":"2025-03-27 20:21:21.905","level":"info","event":"message","message":"\"peer_options\": \"\""}
+{"timestamp":"2025-03-27 20:21:21.905","level":"info","event":"message","message":"\"log_config\": \"true\""}
+{"timestamp":"2025-03-27 20:21:21.905","level":"info","event":"message","message":"\"stdin\": \"false\""}
+{"timestamp":"2025-03-27 20:21:21.905","level":"info","event":"message","message":"\"save\": \"false\""}
+{"timestamp":"2025-03-27 20:21:21.906","level":"info","event":"message","message":"\"console_messages\": \"verbose\""}
+{"timestamp":"2025-03-27 20:21:21.908","level":"info","event":"message","message":"Listening for streamer connections on port 8888"}
+{"timestamp":"2025-03-27 20:21:21.908","level":"info","event":"message","message":"Listening for player connections on port 80"}
+{"timestamp":"2025-03-27 20:21:21.909","level":"info","event":"message","message":"Listening for SFU connections on port 8889"}
+{"timestamp":"2025-03-27 20:23:43.192","level":"info","event":"message","message":"@epicgames-ps/wilbur v2.1.3 starting..."}
+{"timestamp":"2025-03-27 20:23:43.193","level":"info","event":"message","message":"Config:"}
+{"timestamp":"2025-03-27 20:23:43.193","level":"info","event":"message","message":"\"log_folder\": \"logs\""}
+{"timestamp":"2025-03-27 20:23:43.193","level":"info","event":"message","message":"\"log_level_console\": \"info\""}
+{"timestamp":"2025-03-27 20:23:43.193","level":"info","event":"message","message":"\"log_level_file\": \"info\""}
+{"timestamp":"2025-03-27 20:23:43.193","level":"info","event":"message","message":"\"streamer_port\": \"8888\""}
+{"timestamp":"2025-03-27 20:23:43.194","level":"info","event":"message","message":"\"player_port\": \"9001\""}
+{"timestamp":"2025-03-27 20:23:43.194","level":"info","event":"message","message":"\"sfu_port\": \"8889\""}
+{"timestamp":"2025-03-27 20:23:43.194","level":"info","event":"message","message":"\"max_players\": \"0\""}
+{"timestamp":"2025-03-27 20:23:43.194","level":"info","event":"message","message":"\"serve\": \"false\""}
+{"timestamp":"2025-03-27 20:23:43.195","level":"info","event":"message","message":"\"http_root\": \"www_vite\""}
+{"timestamp":"2025-03-27 20:23:43.195","level":"info","event":"message","message":"\"homepage\": \"index.html\""}
+{"timestamp":"2025-03-27 20:23:43.195","level":"info","event":"message","message":"\"https\": \"false\""}
+{"timestamp":"2025-03-27 20:23:43.195","level":"info","event":"message","message":"\"https_port\": \"443\""}
+{"timestamp":"2025-03-27 20:23:43.196","level":"info","event":"message","message":"\"ssl_key_path\": \"certificates/client-key.pem\""}
+{"timestamp":"2025-03-27 20:23:43.196","level":"info","event":"message","message":"\"ssl_cert_path\": \"certificates/client-cert.pem\""}
+{"timestamp":"2025-03-27 20:23:43.196","level":"info","event":"message","message":"\"https_redirect\": \"true\""}
+{"timestamp":"2025-03-27 20:23:43.196","level":"info","event":"message","message":"\"rest_api\": \"false\""}
+{"timestamp":"2025-03-27 20:23:43.196","level":"info","event":"message","message":"\"peer_options\": \"\""}
+{"timestamp":"2025-03-27 20:23:43.197","level":"info","event":"message","message":"\"log_config\": \"true\""}
+{"timestamp":"2025-03-27 20:23:43.197","level":"info","event":"message","message":"\"stdin\": \"false\""}
+{"timestamp":"2025-03-27 20:23:43.197","level":"info","event":"message","message":"\"save\": \"false\""}
+{"timestamp":"2025-03-27 20:23:43.197","level":"info","event":"message","message":"\"console_messages\": \"verbose\""}
+{"timestamp":"2025-03-27 20:23:43.199","level":"info","event":"message","message":"Listening for streamer connections on port 8888"}
+{"timestamp":"2025-03-27 20:23:43.200","level":"info","event":"message","message":"Listening for player connections on port 9001"}
+{"timestamp":"2025-03-27 20:23:43.200","level":"info","event":"message","message":"Listening for SFU connections on port 8889"}
+{"timestamp":"2025-03-27 20:24:28.505","level":"info","event":"message","message":"New player connection: ::1 (/)"}
+{"timestamp":"2025-03-27 20:24:28.506","level":"info","event":"message","message":"Registered new player: Player0"}
+{"timestamp":"2025-03-27 20:24:28.507","level":"info","event":"proto_message","direction":"outgoing","sender":"Player0","protoMessage":{"type":"config","peerConnectionOptions":{},"protocolVersion":"1.3.0"}}
+{"timestamp":"2025-03-27 20:24:28.508","level":"info","event":"message","message":"Unregistered player: Player0"}
+{"timestamp":"2025-03-27 20:24:28.509","level":"info","event":"message","message":"Player Player0 (::1) disconnected."}
+{"timestamp":"2025-03-27 20:24:28.516","level":"info","event":"message","message":"New player connection: ::1 (/)"}
+{"timestamp":"2025-03-27 20:24:28.517","level":"info","event":"message","message":"Registered new player: Player1"}
+{"timestamp":"2025-03-27 20:24:28.517","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"config","peerConnectionOptions":{},"protocolVersion":"1.3.0"}}
+{"timestamp":"2025-03-27 20:24:28.597","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 20:24:28.597","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 20:24:31.625","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 20:24:31.625","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 20:24:34.639","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 20:24:34.640","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 20:24:37.655","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"listStreamers"}}
+{"timestamp":"2025-03-27 20:24:37.656","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"streamerList","ids":[]}}
+{"timestamp":"2025-03-27 20:24:58.520","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"ping","time":1743078298520}}
+{"timestamp":"2025-03-27 20:24:58.521","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"pong","time":1743078298520}}
+{"timestamp":"2025-03-27 20:25:28.510","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"ping","time":1743078328509}}
+{"timestamp":"2025-03-27 20:25:28.511","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"pong","time":1743078328509}}
+{"timestamp":"2025-03-27 20:25:58.513","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"ping","time":1743078358513}}
+{"timestamp":"2025-03-27 20:25:58.514","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"pong","time":1743078358513}}
+{"timestamp":"2025-03-27 20:26:29.097","level":"info","event":"proto_message","direction":"incoming","receiver":"Player1","protoMessage":{"type":"ping","time":1743078389095}}
+{"timestamp":"2025-03-27 20:26:29.097","level":"info","event":"proto_message","direction":"outgoing","sender":"Player1","protoMessage":{"type":"pong","time":1743078389095}}
+{"timestamp":"2025-03-27 20:26:48.513","level":"info","event":"message","message":"Unregistered player: Player1"}
+{"timestamp":"2025-03-27 20:26:48.513","level":"info","event":"message","message":"Player Player1 (::1) disconnected."}
