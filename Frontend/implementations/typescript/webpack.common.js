@@ -70,6 +70,7 @@ module.exports = {
     experiments: {
       futureDefaults: true
     },
+    watch: true,
 	devServer: {
     	static: {
     		directory: path.join(__dirname, '../../../SignallingWebServer/www'),

@@ -1,7 +1,7 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 import React from 'react';
-import { PixelStreamingWrapper } from './PixelStreamingWrapper';
+import { PixelStreamingWrapper } from '@epicgames-ps/react-pixelstreamingfrontend-react-ue5.5/src/components/PixelStreamingWrapper';
 
 export const App = () => {
     return (

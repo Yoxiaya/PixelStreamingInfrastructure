@@ -21,11 +21,12 @@ document.body.onload = function() {
 
 	// Create the main Pixel Streaming object for interfacing with the web-API of Pixel Streaming
 	const stream = new PixelStreaming(config);
-
+	console.log('stream',stream);
 	const application = new Application({
 		stream,
 		onColorModeChanged: (isLightMode) => PixelStreamingApplicationStyles.setColorMode(isLightMode)
 	});
+	console.log(application);
 	document.body.appendChild(application.rootElement);
 
 	window.pixelStreaming = stream;

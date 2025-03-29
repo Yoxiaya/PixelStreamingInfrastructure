@@ -1,7 +1,7 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 const { merge } = require('webpack-merge');
-const common = require('./webpack.common.js');
+const common = require('@epicgames-ps/react-pixelstreamingfrontend-react-ue5.5/webpack.common.js');
 
 module.exports = merge(common, {
     mode: 'production',
